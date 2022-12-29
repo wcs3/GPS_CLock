@@ -1,3 +1,8 @@
 # GPS_CLock
 
-A clock that displays time in ISO8601 format. Connects to GPS satellites for accurate timekeeping. 
+A device that displays time on a 7-segment display in ISO8601 format.
+
+Features:
+ - Retrieves accurate time from GPS satellites
+ - Displays time in compliance with ISO8601
+ - Powered from a rechargeable battery for portable usage
