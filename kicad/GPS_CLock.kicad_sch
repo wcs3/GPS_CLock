@@ -3679,9 +3679,6 @@
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/403b2ae3-83b5-4e2b-b73d-4438521c325e"
       (reference "#FLG0204") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1878de8e-6654-4fc9-9f10-669002637224"
-      (reference "#FLG0205") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/8fa97b83-182c-467e-8d18-54ccfe9ec2a4"
       (reference "#FLG0206") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -4270,31 +4267,10 @@
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/051573e6-49b4-493c-b5ea-52935ca816c2"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/4c8c4369-5a25-4498-ab3c-5b5782d84da9"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/4f506ba4-1ae8-465e-a0de-4d05c3a519fe"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/59d4f2c6-0d26-45be-9153-9b82b86a9e87"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/5a163c40-6a36-48e5-873c-31de91ae2e09"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a5781e58-697a-4895-adcd-7064a1c83938"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/b121bd92-4ca9-4dda-b852-bc0f942fa0c5"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/da53849b-9639-4aa1-a4f6-2cbcb97c197f"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f9386b72-4fe2-43be-9252-28628cab47c0"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fc5a9f07-39cc-4e11-b729-24da5da338db"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/8679ce40-96af-43dc-9836-479948215d84"
@@ -4480,19 +4456,10 @@
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/125b41e4-9010-452d-9a14-345742c859dd"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2735a1d6-d2d9-4422-9e53-dbcbdb3c56d8"
-      (reference "C?") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/342aa566-5229-4a97-a549-61975109ebba"
-      (reference "C?") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/459091be-d5a5-49eb-be4f-fef2d2c9c5c2"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/463c4b6b-9779-4690-8c17-849d18e32c5e"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/475aeda2-e5fe-43a7-8a62-d16a27f2701e"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/49d4ae57-9332-48c7-b39d-e21c622a27ec"
@@ -4500,9 +4467,6 @@
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/5187089c-4ec6-45f4-a63a-746e6809c0b4"
       (reference "C?") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/59b48f83-1cc1-4019-8736-2e4aaa4e0bbc"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6fe792ec-577c-4188-b4a0-07496bdfc2c9"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4512,15 +4476,6 @@
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/94e64f7a-9b43-421c-b819-dfa57161bb2b"
       (reference "C?") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/9520a77e-bbd8-4cf3-95a6-88ac86e1c84b"
-      (reference "C?") (unit 1) (value "330p") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/962287a9-07e9-4af3-b0bf-7fa070da6f5b"
-      (reference "C?") (unit 1) (value "330p") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a831319c-5881-4e03-83c1-416c8d26c2c5"
-      (reference "C?") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/aab6c5ed-ce73-41ef-b446-904c4b98350d"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4713,9 +4668,6 @@
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7f2cdb90-5a1a-4b1c-a6a9-2326c89f84d5"
       (reference "U202") (unit 1) (value "RP509Z251B") (footprint "Package_CSP:WLCSP-6_1.4x1.0mm_P0.4mm")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/64414e0c-8899-4b23-9e10-6bf10a780d55"
-      (reference "U203") (unit 1) (value "TPS25750DRJK") (footprint "clock:POWERWQFN-40")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b9c95ca2-a7b1-44de-9f8d-f4ea8d9de37b"
       (reference "U301") (unit 1) (value "DG0") (footprint "clock:7seg 0.56in smd")
