@@ -37,8 +37,8 @@
   (pad "8" smd rect (at 0 -13.8) (size 1.7 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d2fa3e3b-0c44-4b3b-9b0e-800e077d73ab))
   (pad "9" smd rect (at -2.54 -13.8) (size 1.7 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ecc1d880-dd19-49b9-9947-c8e9b622b04e))
   (pad "10" smd rect (at -5.08 -13.8) (size 1.7 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eba15b5f-b4f7-4210-8516-d3c78bd909f2))
-  (model "${KIPRJMOD}/3d/ACSX08-51.STEP"
-    (offset (xyz 0 0 3.7))
+  (model "/home/wol/Documents/GPS_CLock3/kicad/3d/ACSX08-51.STEP"
+    (offset (xyz 0 0 3.75))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

@@ -2216,28 +2216,28 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 255.27 33.02 0) (unit 1)
+  (symbol (lib_id "power:Earth") (at 251.46 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 005d81a7-5d97-40c6-a9e1-6d21411e9384)
-    (property "Reference" "H103" (id 0) (at 257.81 31.7499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (id 1) (at 257.81 33.0199 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" (id 2) (at 255.27 33.02 0)
+    (uuid 0b923d76-8e7c-475c-b118-0abda436a947)
+    (property "Reference" "#PWR0124" (id 0) (at 251.46 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 255.27 33.02 0)
+    (property "Value" "Earth" (id 1) (at 251.46 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4432797b-6bc8-4361-b39c-23391023bd33))
+    (property "Footprint" "" (id 2) (at 251.46 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 251.46 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 66b2a679-7038-4874-a57c-7e613b7d0fe6))
   )
 
   (symbol (lib_id "power:+3V3") (at 261.62 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 111c8122-1f00-4bda-88ab-e169681fff30)
-    (property "Reference" "#PWR0126" (id 0) (at 261.62 146.05 0)
+    (property "Reference" "#PWR0128" (id 0) (at 261.62 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 261.62 138.43 0))
@@ -2267,42 +2267,6 @@
     )
     (pin "1" (uuid 0fc20ce9-425d-47bf-a311-990874b021b5))
     (pin "2" (uuid 80046827-2567-4bd2-ae3a-ddae6d9bee51))
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 243.84 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 1b05bbbe-0365-4227-8fdc-a1210fc41c29)
-    (property "Reference" "H101" (id 0) (at 246.38 31.7499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (id 1) (at 246.38 33.0199 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" (id 2) (at 243.84 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 243.84 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f006da8e-9d2a-4a83-9076-47eda721cddd))
-  )
-
-  (symbol (lib_id "power:Earth") (at 243.84 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 1b0b1e85-bf01-44d1-bfac-4d7884fe4b68)
-    (property "Reference" "#PWR0123" (id 0) (at 243.84 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (id 1) (at 243.84 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 243.84 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 243.84 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5459b418-0935-4bdd-94a6-42e548bf6536))
   )
 
   (symbol (lib_id "power:+3V3") (at 222.25 142.24 0) (unit 1)
@@ -2484,22 +2448,22 @@
     (pin "1" (uuid b9526286-01bc-4906-afc3-9946715441ac))
   )
 
-  (symbol (lib_id "power:Earth") (at 255.27 46.99 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 236.22 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 383e6190-a321-4e36-ae44-cc1ea9b83e22)
-    (property "Reference" "#PWR0125" (id 0) (at 255.27 53.34 0)
+    (uuid 372888fc-ff19-42a1-9d2b-1a4b7411baf4)
+    (property "Reference" "H102" (id 0) (at 238.76 45.7199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BOT_LEFT" (id 1) (at 238.76 48.2599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 236.22 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Earth" (id 1) (at 255.27 50.8 0)
+    (property "Datasheet" "~" (id 3) (at 236.22 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 255.27 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 255.27 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d7c7a8d4-8e4b-488b-8dda-0fb0924083ab))
+    (pin "1" (uuid e600a6fd-1ffc-4659-9f01-7db4dd9d17e8))
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 182.88 148.59 90) (mirror x) (unit 1)
@@ -2557,6 +2521,24 @@
     (pin "1" (uuid 2a9b0430-5329-4fe5-9175-0fa07291a0eb))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 266.7 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 3effcea1-9f93-4131-b9fc-6bbff92d49ee)
+    (property "Reference" "H105" (id 0) (at 269.24 30.4799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TOP_RIGHT" (id 1) (at 269.24 33.0199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 266.7 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 266.7 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a4054807-9f46-4274-ade0-4928145c1205))
+  )
+
   (symbol (lib_id "Clock:VEML7700-TR") (at 80.01 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3f19ba3a-8def-4a15-825d-c151abacad36)
@@ -2597,24 +2579,6 @@
     (pin "2" (uuid 4c012a5e-6215-4849-a5a7-034d3685ca19))
   )
 
-  (symbol (lib_id "power:Earth") (at 255.27 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 4607a035-794f-4fa1-8f1d-f6efb721b895)
-    (property "Reference" "#PWR0129" (id 0) (at 255.27 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (id 1) (at 255.27 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 255.27 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 255.27 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a04aff5-8a5c-4f45-a2ba-97de5ccc8b5f))
-  )
-
   (symbol (lib_id "Device:C_Small") (at 152.4 177.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 46d40bae-0a1a-4b69-90ac-189ebf21639e)
@@ -2632,24 +2596,6 @@
     )
     (pin "1" (uuid 73ac1726-1a11-481d-817f-07f60ac7aa84))
     (pin "2" (uuid d29ed3c1-4b83-4321-8458-109a9600e27d))
-  )
-
-  (symbol (lib_id "power:Earth") (at 243.84 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 476a1ea9-000b-4726-8def-331640dfe747)
-    (property "Reference" "#PWR0128" (id 0) (at 243.84 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (id 1) (at 243.84 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 243.84 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 243.84 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a6679859-17e6-404f-8333-2a1a04ee827f))
   )
 
   (symbol (lib_id "Clock:MS8607") (at 139.7 175.26 0) (mirror y) (unit 1)
@@ -2673,22 +2619,22 @@
     (pin "8" (uuid c17fe9ad-9911-41f8-b013-18e827905dd5))
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 255.27 55.88 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 236.22 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 559b23a8-a782-4e04-ac09-a6e982f925c2)
-    (property "Reference" "H106" (id 0) (at 257.81 54.6099 0)
+    (uuid 55a480a7-619e-4b1d-8dfe-e15c1e03207f)
+    (property "Reference" "H101" (id 0) (at 238.76 30.4799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole_Pad" (id 1) (at 257.81 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Value" "TOP_LEFT" (id 1) (at 238.76 33.0199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" (id 2) (at 255.27 55.88 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 236.22 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 255.27 55.88 0)
+    (property "Datasheet" "~" (id 3) (at 236.22 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4196e0b-15cb-48cd-a80a-12b7a7066f5f))
+    (pin "1" (uuid 63993690-2de9-4e32-b3e3-f1c885bbdbd0))
   )
 
   (symbol (lib_id "Device:C_Small") (at 187.96 31.75 0) (unit 1)
@@ -2893,22 +2839,22 @@
     (pin "1" (uuid e30b901e-80f7-4ebe-98ec-b6fa6f68f3a2))
   )
 
-  (symbol (lib_id "power:Earth") (at 243.84 35.56 0) (unit 1)
+  (symbol (lib_id "power:Earth") (at 236.22 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 8971dfe7-c70a-46f6-bbe2-9a970f14abc4)
-    (property "Reference" "#PWR0122" (id 0) (at 243.84 41.91 0)
+    (uuid 8ae84807-e2f4-4693-99d7-98411b0b8dc3)
+    (property "Reference" "#PWR0123" (id 0) (at 236.22 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Earth" (id 1) (at 243.84 39.37 0)
+    (property "Value" "Earth" (id 1) (at 236.22 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 243.84 35.56 0)
+    (property "Footprint" "" (id 2) (at 236.22 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 243.84 35.56 0)
+    (property "Datasheet" "~" (id 3) (at 236.22 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8ef22ef6-7026-41ab-b7e7-adeebaf14ca1))
+    (pin "1" (uuid 6a8ec200-d16d-45f9-9227-27785fb05be4))
   )
 
   (symbol (lib_id "Device:R_Small") (at 261.62 144.78 0) (unit 1)
@@ -3033,6 +2979,24 @@
     (pin "1" (uuid ce536b20-a5f8-4e72-a79c-7ea1046a0a6d))
   )
 
+  (symbol (lib_id "power:Earth") (at 251.46 50.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a8cafcf1-5bca-4e33-8a72-799cb618cd08)
+    (property "Reference" "#PWR0125" (id 0) (at 251.46 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (id 1) (at 251.46 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (id 2) (at 251.46 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 251.46 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 25732dd8-826f-45d7-ad77-132ca2b1a8cd))
+  )
+
   (symbol (lib_id "Device:C_Small") (at 196.85 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid aa834fc5-04a2-41c6-8413-6ecba80240b5)
@@ -3050,6 +3014,24 @@
     )
     (pin "1" (uuid acd20ecd-2d07-4517-8484-ad138cae807b))
     (pin "2" (uuid 8317ebc3-a5c4-4d6c-a4f1-dc87a26a1376))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 266.7 48.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid ab8b0b80-246f-42d3-a770-f85e4e72d30c)
+    (property "Reference" "H106" (id 0) (at 269.24 45.7199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BOT_RIGHT" (id 1) (at 269.24 48.2599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 266.7 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 266.7 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 58f5f368-0532-421d-8902-eaa454d27325))
   )
 
   (symbol (lib_id "Device:R_Small") (at 222.25 144.78 0) (unit 1)
@@ -3134,6 +3116,24 @@
     (pin "2" (uuid eed2016b-fa44-40b2-b086-bee21bdae3bd))
   )
 
+  (symbol (lib_id "power:Earth") (at 266.7 35.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid c16fcf3d-c0d7-4318-9192-f39c3b413162)
+    (property "Reference" "#PWR0126" (id 0) (at 266.7 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (id 1) (at 266.7 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (id 2) (at 266.7 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 266.7 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd21c210-1010-485d-bf99-67aa5fb7976f))
+  )
+
   (symbol (lib_id "power:+3V3") (at 182.88 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c382e96f-3aab-4a69-9f6e-61425b25987e)
@@ -3148,6 +3148,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 252ae14b-4346-486e-b573-2ecae59431b8))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 251.46 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid c5a35b1a-805d-40e7-807d-b27de09b8f43)
+    (property "Reference" "H103" (id 0) (at 254 30.4799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TOP_MID" (id 1) (at 254 33.0199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 251.46 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 251.46 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d769d41-2c81-488b-93a8-1b04aeee0c50))
   )
 
   (symbol (lib_id "Device:C_Small") (at 90.17 168.91 0) (unit 1)
@@ -3169,22 +3187,58 @@
     (pin "2" (uuid 97d46baa-f767-47ef-bdc6-e640e40dd5f2))
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 243.84 44.45 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 251.46 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid cfc9fcac-4d4c-4c23-ba5e-4b5ef2b36e57)
-    (property "Reference" "H102" (id 0) (at 246.38 43.1799 0)
+    (uuid c6a01bf2-e968-4628-97fb-a0f9f6998480)
+    (property "Reference" "H104" (id 0) (at 254 45.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole_Pad" (id 1) (at 246.38 44.4499 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Value" "BOT_MID" (id 1) (at 254 48.2599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" (id 2) (at 243.84 44.45 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 251.46 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 243.84 44.45 0)
+    (property "Datasheet" "~" (id 3) (at 251.46 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 078b004b-6dc7-4775-9de8-b18b79704ce8))
+    (pin "1" (uuid 3864c8b8-b10c-45bd-b170-2b8a22525f41))
+  )
+
+  (symbol (lib_id "power:Earth") (at 266.7 50.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid c85552a9-b01b-448d-b6cc-2d7eae37d947)
+    (property "Reference" "#PWR0127" (id 0) (at 266.7 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (id 1) (at 266.7 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (id 2) (at 266.7 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 266.7 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b684a57e-0ada-4751-b91f-0ad3d2f5d020))
+  )
+
+  (symbol (lib_id "power:Earth") (at 236.22 35.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid cca125ae-9fe2-4299-9880-bff1fd4ba6ab)
+    (property "Reference" "#PWR0122" (id 0) (at 236.22 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (id 1) (at 236.22 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (id 2) (at 236.22 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 236.22 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 38606ab3-c01d-469d-938f-659deb13817b))
   )
 
   (symbol (lib_id "Device:C_Small") (at 118.11 31.75 0) (unit 1)
@@ -3281,7 +3335,7 @@
   (symbol (lib_id "power:+3V3") (at 269.24 144.78 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d55726a3-fc64-42ed-8534-ddf88ad7ab60)
-    (property "Reference" "#PWR0127" (id 0) (at 269.24 148.59 0)
+    (property "Reference" "#PWR0129" (id 0) (at 269.24 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 269.24 140.97 0))
@@ -3292,24 +3346,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid da22e25d-d0f3-41f7-867f-8f54beb25ca4))
-  )
-
-  (symbol (lib_id "power:Earth") (at 255.27 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid dd97d8d1-78de-4de5-8b1c-92e6d9e5267f)
-    (property "Reference" "#PWR0124" (id 0) (at 255.27 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (id 1) (at 255.27 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 255.27 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 255.27 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8054609f-de0a-4483-b266-e1982cc6bd3f))
   )
 
   (symbol (lib_id "power:Earth") (at 49.53 125.73 0) (mirror y) (unit 1)
@@ -3347,24 +3383,6 @@
     )
     (pin "1" (uuid b2caaa81-0f18-4afc-8c07-ce31004feb1b))
     (pin "2" (uuid 4fd383e9-5eb2-4ef4-9f8f-52bad5d77557))
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 255.27 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid ec35adec-c5c2-4aa1-8de2-b3dc7c5e0825)
-    (property "Reference" "H104" (id 0) (at 257.81 43.1799 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (id 1) (at 257.81 44.4499 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" (id 2) (at 255.27 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 255.27 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5b95a0ff-c417-48d6-b017-9ee940298a06))
   )
 
   (symbol (lib_id "Device:C_Small") (at 161.29 31.75 0) (unit 1)
@@ -3512,24 +3530,6 @@
     (pin "3" (uuid 6df0acd5-248b-4e0e-a43e-47626b7a5e90))
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 243.84 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid fc1c565d-d0ce-453f-b9db-7997bc187040)
-    (property "Reference" "H105" (id 0) (at 246.38 54.6099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (id 1) (at 246.38 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" (id 2) (at 243.84 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 243.84 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b1008ee6-f297-411f-90d3-2609880c6855))
-  )
-
   (sheet (at 243.84 80.01) (size 12.7 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -3610,10 +3610,10 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 4fbde836-87d5-478f-8d01-f08e4241a9c4)
-    (property "Sheet name" "LED_Segments" (id 0) (at 207.01 79.2984 0)
+    (property "Sheet name" "Segments" (id 0) (at 207.01 79.2984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "LED_Segments.kicad_sch" (id 1) (at 207.01 95.8346 0)
+    (property "Sheet file" "Segments.kicad_sch" (id 1) (at 207.01 95.8346 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "LED_MOSI" input (at 207.01 83.82 180)
@@ -3676,11 +3676,8 @@
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/cae3d42c-e868-48bb-9a5d-ce45f0f572e7"
       (reference "#FLG0203") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/403b2ae3-83b5-4e2b-b73d-4438521c325e"
-      (reference "#FLG0204") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/8fa97b83-182c-467e-8d18-54ccfe9ec2a4"
-      (reference "#FLG0206") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0204") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/55e7cedc-1e0e-4664-94c9-9b3665509c0e"
       (reference "#PWR0101") (unit 1) (value "Earth") (footprint "")
@@ -3745,515 +3742,428 @@
     (path "/9e530418-cc34-4944-93c7-9b42d9812d5e"
       (reference "#PWR0121") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/8971dfe7-c70a-46f6-bbe2-9a970f14abc4"
+    (path "/cca125ae-9fe2-4299-9880-bff1fd4ba6ab"
       (reference "#PWR0122") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1b0b1e85-bf01-44d1-bfac-4d7884fe4b68"
+    (path "/8ae84807-e2f4-4693-99d7-98411b0b8dc3"
       (reference "#PWR0123") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/dd97d8d1-78de-4de5-8b1c-92e6d9e5267f"
+    (path "/0b923d76-8e7c-475c-b118-0abda436a947"
       (reference "#PWR0124") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/383e6190-a321-4e36-ae44-cc1ea9b83e22"
+    (path "/a8cafcf1-5bca-4e33-8a72-799cb618cd08"
       (reference "#PWR0125") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/c16fcf3d-c0d7-4318-9192-f39c3b413162"
+      (reference "#PWR0126") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/c85552a9-b01b-448d-b6cc-2d7eae37d947"
+      (reference "#PWR0127") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/111c8122-1f00-4bda-88ab-e169681fff30"
-      (reference "#PWR0126") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0128") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/d55726a3-fc64-42ed-8534-ddf88ad7ab60"
-      (reference "#PWR0127") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/476a1ea9-000b-4726-8def-331640dfe747"
-      (reference "#PWR0128") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4607a035-794f-4fa1-8f1d-f6efb721b895"
-      (reference "#PWR0129") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c4a9d0dc-56f8-4500-bc43-1827b117242a"
-      (reference "#PWR0201") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0129") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fbf0fa63-2565-436b-84e0-19ca4dde08f9"
+      (reference "#PWR0201") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c4a9d0dc-56f8-4500-bc43-1827b117242a"
       (reference "#PWR0202") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/e414312c-db68-471e-8c15-b1fb34470d9a"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fbb5163c-3f39-464b-92a0-f032011ee4f6"
       (reference "#PWR0203") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7e837372-1575-4269-a5cd-535feebd0527"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/8f8e52b0-381f-4210-861d-475d07ef4724"
       (reference "#PWR0204") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fd0bd7c4-497b-489e-9371-d4616d6d3c94"
-      (reference "#PWR0205") (unit 1) (value "+3V3") (footprint "")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6fc4812e-e26f-4d1f-b7c6-69f434de8664"
+      (reference "#PWR0205") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/8db6a52d-ce0c-4582-b9a9-bbfffc03b869"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a23774e4-30ef-4ed7-8054-9192b297bf4d"
       (reference "#PWR0206") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/9a8e8af5-1520-46a9-b85d-a0edb92f7495"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fd0bd7c4-497b-489e-9371-d4616d6d3c94"
+      (reference "#PWR0207") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3c4b2fc7-1f8b-46ee-bd20-2516b9de25b6"
+      (reference "#PWR0208") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7e1b2a22-b8f1-4b50-b5ab-a4db43d2ad70"
+      (reference "#PWR0209") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/d20793a9-160d-4911-88a9-961a04cf08c7"
       (reference "#PWR0210") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/b04a1419-7d4b-4bc1-8dc2-67dd8260feee"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f518bc46-12c0-42e2-828f-5f185d62789b"
       (reference "#PWR0211") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a00146e4-26d0-48db-8320-a0922c714aba"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6ba82cb2-cd00-4c86-be0f-c9633d722071"
+      (reference "#PWR0212") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/024be546-9ee3-4be6-ac9f-068531698216"
+      (reference "#PWR0213") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2a061f10-b960-4c32-a879-fd30a2b4cfb5"
+      (reference "#PWR0214") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/244c023d-3e34-4b23-a025-623db68808ed"
       (reference "#PWR0215") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3ab0945a-7b9f-4274-983a-9140ff727c84"
-      (reference "#PWR0218") (unit 1) (value "+2V5") (footprint "")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f8c75a5d-108a-41a4-b27b-e9c682ff6001"
+      (reference "#PWR0216") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a5d96ec8-d2d9-4d77-8953-06840ea13fa1"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/746b76c9-6641-4d78-8fe0-e562a5ff775d"
+      (reference "#PWR0217") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ba591e44-31e1-4151-b930-d021b5d5ba23"
+      (reference "#PWR0218") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/485bda05-1634-4703-8503-1c406e19530a"
       (reference "#PWR0219") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/299b4be3-88e5-475e-bf44-dfef06671e51"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1171ccbe-64cd-4a05-9f2b-c50ba25ca412"
+      (reference "#PWR0220") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2fb7059a-267f-4d05-9692-2fc3bdc1438b"
       (reference "#PWR0221") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/73f33e29-2724-42d1-a874-29f0349ddc35"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1a089633-b7e8-47bb-ba27-56dbdea637a7"
       (reference "#PWR0222") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/d91bdd7a-87cc-4e06-bf3a-589c8f793668"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2deb9621-7716-44f3-91bf-74eb41237895"
       (reference "#PWR0223") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/5964937f-d0c6-4a28-8262-68631951618e"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/808dd022-1523-4771-aef4-cd5fa721d5e4"
       (reference "#PWR0224") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c49d4780-b8fb-49b1-a107-85160f48e4da"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3fe6919e-fdf3-4405-bdab-7b21a88fb60d"
       (reference "#PWR0225") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f1f89b67-4605-4a64-8df2-ecb649804308"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1508bbd2-51b3-4723-93a9-24f9fd735d97"
       (reference "#PWR0226") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3a79f5e3-a6e5-45a2-bd68-e44c3b20a2bd"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/287c42dc-19bf-46da-b9c2-346779200940"
       (reference "#PWR0227") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7edd453b-f6f9-404d-b6a2-aa56146267a3"
-      (reference "#PWR0228") (unit 1) (value "+BATT") (footprint "")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/545b40fc-d6bb-4839-8261-205ca57c2530"
+      (reference "#PWR0228") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0aa1e18f-8cec-49db-a6f9-5a3921c0d29c"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/4f85c6a6-fd72-4464-9e53-bfd143affcca"
       (reference "#PWR0229") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/e19daa23-de2a-4ecf-9453-0406957955b3"
+      (reference "#PWR0230") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7edd453b-f6f9-404d-b6a2-aa56146267a3"
+      (reference "#PWR0231") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/dfb55799-1391-471d-b190-9dcecb42bda1"
+      (reference "#PWR0232") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/d5045d1d-63bc-4d2e-b5c7-d15535ea9eba"
+      (reference "#PWR0233") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d4ff9393-6ca9-4194-ad9e-0a5390539d90"
       (reference "#PWR0301") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bdd98e46-368f-4935-bb9c-9683b6130a99"
-      (reference "#PWR0302") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/af5269c5-a9bc-4d27-9ea6-06c2419c0224"
-      (reference "#PWR0303") (unit 1) (value "+2V5") (footprint "")
-    )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3c20eae2-3b9a-4a8f-bd84-9bdaf5372e1e"
-      (reference "#PWR0304") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0302") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4a405959-7fef-4e4b-8781-70978e869298"
-      (reference "#PWR0305") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0303") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d07266d0-5233-4425-9b60-4565dec48126"
-      (reference "#PWR0306") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4f011ddc-c57c-4bb5-b5cb-e58194839298"
-      (reference "#PWR0307") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7b92e270-401d-4da4-bfcc-77d84a23b9c3"
-      (reference "#PWR0308") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0304") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cd934968-1fd2-4649-ae54-bc6786ab9a8d"
-      (reference "#PWR0309") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0305") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1cff698e-8a64-43f3-9de9-5124574ba9e6"
-      (reference "#PWR0310") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0306") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f7271148-dd40-4c6e-9145-07f17e0323b6"
-      (reference "#PWR0311") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0307") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/61d450c4-7016-4db2-bbb1-d4ef5d63772d"
-      (reference "#PWR0312") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0308") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4aac94e9-770b-4612-aa14-bbaa323f330c"
-      (reference "#PWR0313") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0309") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/fd951f47-2766-4170-8bc5-36bfc3ff3993"
-      (reference "#PWR0314") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0310") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3779dc67-193c-48e5-b886-23e348ad8711"
-      (reference "#PWR0315") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/488004ed-506e-4827-b44c-c1978b87d6b3"
-      (reference "#PWR0316") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/df83beb5-4bc3-4275-a9f4-cc4831611107"
-      (reference "#PWR0317") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0311") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4f124144-a966-4d82-8b0b-1ba5c22fdacf"
-      (reference "#PWR0318") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0312") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/703c0da2-ad8d-4d96-8f1d-13159448b3d7"
-      (reference "#PWR0319") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4d870229-4116-4cd7-aed3-195c0f5717f4"
+      (reference "#PWR0313") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a9706473-5d96-4c40-b0b6-c4593c2a86b0"
-      (reference "#PWR0320") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/198a6216-9948-4b9a-b5cc-1778c612e6b5"
+      (reference "#PWR0314") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/226d7dc4-da9c-40bb-9ae9-0f9e3d115d8d"
-      (reference "#PWR0321") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7cc3f943-f5aa-4a16-b6a2-e7a0b277eab7"
+      (reference "#PWR0315") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/daa07e3c-9eaf-47d7-9eb6-93fff74f15c5"
-      (reference "#PWR0322") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/41308789-84cc-4f8f-9046-b5991d47d1ba"
+      (reference "#PWR0316") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e5c0f02a-13db-40f0-88f8-3900eeb46eae"
-      (reference "#PWR0323") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0317") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d49dc772-384a-4ccf-a29e-622992468435"
-      (reference "#PWR0324") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0318") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/285399d2-cfba-43c2-82b4-765d223b8e8c"
-      (reference "#PWR0325") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0319") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4076932a-d579-46c4-98ff-adfa973e76a6"
-      (reference "#PWR0326") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b76a5639-6091-4841-b6d4-9247fe6cfd30"
-      (reference "#PWR0327") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b13969f7-bbd8-4d44-acd6-09ab5806ec5d"
-      (reference "#PWR0328") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0320") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/45e63cf2-f651-4ef1-8481-5dfa14285268"
-      (reference "#PWR0329") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0321") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/92258e6e-166f-49d3-bea2-a743156fe084"
-      (reference "#PWR0330") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0322") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/576857c4-dcd9-4fc2-bf47-10a4787a1d05"
-      (reference "#PWR0331") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0323") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/86c73934-1a9d-4049-a702-3db5a8801217"
-      (reference "#PWR0332") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0324") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a4b745ae-5b5f-4677-9c3e-acd29510cb6a"
-      (reference "#PWR0333") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0325") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b7de9b78-1cbb-4ee4-9958-c8bc34dc9f71"
-      (reference "#PWR0334") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8fd1d077-2119-4798-8c30-91ac66f2a731"
-      (reference "#PWR0335") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/948f9f57-7496-4a21-9876-88db9142eb5d"
-      (reference "#PWR0336") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0326") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/52481bb2-709f-45b5-ae6b-5d2429743bb9"
-      (reference "#PWR0337") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0327") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d0d06a09-9fee-41fb-a46b-326bbe5a3bf8"
-      (reference "#PWR0338") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/32584ef8-ca03-4410-b341-5e92aa9f88fb"
-      (reference "#PWR0339") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/0027538e-8a02-43e5-93e2-97da22cbc122"
-      (reference "#PWR0340") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e6fa8e95-4be7-4352-8f53-c6b7297970f2"
-      (reference "#PWR0341") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/41bc6188-86c2-4b79-a0e8-46541df378fb"
-      (reference "#PWR0342") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0328") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1a12339d-9125-4253-a49a-32d71eeca84e"
-      (reference "#PWR0343") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0329") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bc90091b-2995-40c0-9a17-36b76bc688d8"
-      (reference "#PWR0344") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6a0da983-daa0-49d4-b1f2-6506b20b0320"
-      (reference "#PWR0345") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/77a04bac-57b0-44fb-90af-4587d2b4a0c5"
-      (reference "#PWR0346") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0330") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/52e09350-5822-411c-8950-9c5348e99ff2"
-      (reference "#PWR0347") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0331") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e5ec59e4-df81-43bc-9c7e-9287dfb11fa9"
-      (reference "#PWR0348") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0332") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/56bc4304-6ec6-46d8-adbc-20b7769f2d59"
-      (reference "#PWR0349") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0333") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8f6cb346-74cc-449a-9d12-b9536b0b12f0"
-      (reference "#PWR0350") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0334") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3b388f62-b453-4bf8-84e3-7d3c80852579"
-      (reference "#PWR0351") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0335") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/98d294a6-18c3-45aa-b5e3-0655cf1db2dd"
-      (reference "#PWR0352") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0336") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d3b04e0d-fc71-48cf-8846-b89d92cd08b4"
-      (reference "#PWR0353") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0337") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ec12f94e-3412-4b7c-9a00-7d5fa706a768"
-      (reference "#PWR0354") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e0f60472-9eff-456f-9f64-24fe0d0f0b32"
-      (reference "#PWR0355") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0338") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6ce48b52-06c5-4ae8-96eb-43551591d246"
-      (reference "#PWR0356") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0339") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e7762523-d51a-4308-b957-5127ba7be178"
-      (reference "#PWR0357") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0340") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/dfea380a-63b0-4427-b51a-bba811f24cb8"
-      (reference "#PWR0358") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/51b9eeb8-8fad-47be-8b4a-c055290842ae"
+      (reference "#PWR0341") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/23bdfe78-c2da-47e4-acb6-00fe9fb06495"
-      (reference "#PWR0359") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/55900f82-1b90-4f98-b6e6-e294cdaf709e"
+      (reference "#PWR0342") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cb6a63bc-1bef-44ea-99bb-774c2e83ffcc"
+      (reference "#PWR0343") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f87a574f-9905-4899-84a9-2cb61ee11e49"
+      (reference "#PWR0344") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/69ffd319-e6c2-48e9-88f2-8f6c2eba665a"
-      (reference "#PWR0360") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7dc2f5b8-68a6-4813-9255-ddc1bf7e92f9"
-      (reference "#PWR0361") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/670893b3-4bfd-4934-bb5b-86ba0d9514d6"
-      (reference "#PWR0362") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0345") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/db54c920-b8d8-443b-af6e-03823d55a022"
-      (reference "#PWR0363") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0346") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/efce064a-a073-4b52-a5b1-13f76bb21b9e"
-      (reference "#PWR0364") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1621de4f-11dd-4875-8a8d-bf918318940f"
-      (reference "#PWR0365") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0347") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/393f2c1b-d99e-476e-b130-d9332adabcb9"
-      (reference "#PWR0366") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0348") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/2d53715c-db97-4548-97dd-7b66235ebb18"
-      (reference "#PWR0367") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0349") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a4edfd30-b3cb-42fd-a986-5ece255b436b"
-      (reference "#PWR0368") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0350") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/54a672c5-d06f-4300-b720-d86e5391a7c1"
-      (reference "#PWR0369") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0351") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/2789178d-a16c-4a93-9ec1-21c6154484ea"
-      (reference "#PWR0370") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0352") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ad801841-cf88-4c09-8cf3-4f14b1307b64"
-      (reference "#PWR0371") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0353") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f68dd39e-bd11-4ba3-a9ce-ca221d22fcd9"
-      (reference "#PWR0372") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/99f32dc8-cff4-4719-975b-d30b76006ef7"
-      (reference "#PWR0373") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/65453be3-543f-4e55-9f4e-033e9ebcaf5b"
-      (reference "#PWR0374") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0354") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1590ebe1-b24a-47ee-8bb6-ce930722c1a4"
-      (reference "#PWR0375") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0355") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b4e3b4ea-cc5f-4014-86bd-ce17d0246685"
-      (reference "#PWR0376") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6c488332-ebd3-423f-b3df-b1f50e9c81d4"
-      (reference "#PWR0377") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8134e2f5-10e0-493e-9ccc-aee8151b7e49"
-      (reference "#PWR0378") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/737068ad-b168-4e29-9634-392a107e2ace"
-      (reference "#PWR0379") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0356") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1f23bea7-8c43-4aa1-bd0d-19bcc7e5850f"
-      (reference "#PWR0380") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0357") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8ada5234-4da5-4149-8a21-0ea170014861"
-      (reference "#PWR0381") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b357a7d6-785a-45cd-bc67-872ef483bf3d"
-      (reference "#PWR0382") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6a9c2609-efcc-498e-a731-42fe027d580c"
-      (reference "#PWR0383") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0358") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a8729667-3cc9-47a9-94c6-768122a9ffc1"
-      (reference "#PWR0384") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0359") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/687d3827-4611-4a23-835c-d4598b680903"
-      (reference "#PWR0385") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0360") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/842a6072-c200-409b-b206-1f38609d3999"
-      (reference "#PWR0386") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0361") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/23a067f5-a65d-4285-82b4-509176a1a723"
-      (reference "#PWR0387") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0362") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/5186d7ca-0796-4865-ab33-6cd61454c269"
-      (reference "#PWR0388") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0363") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1abd368f-5c8d-4715-8ec7-3bc8d6aeb9d9"
-      (reference "#PWR0389") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0364") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/916ead8e-a41e-479e-9a5c-0a7a12ffc964"
-      (reference "#PWR0390") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0365") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/885b83af-8027-4ec3-add8-c22207ab7270"
-      (reference "#PWR0391") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/03c18d46-8399-4953-bfc9-632db49785b9"
-      (reference "#PWR0392") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b17b81ad-0665-424f-9a3c-07a60cbe88bf"
-      (reference "#PWR0393") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0366") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f1288290-77a0-4a1e-b9db-45fa215e1b9a"
-      (reference "#PWR0394") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0367") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6a7556e4-97ba-4c06-a7b9-919ef7b813c3"
-      (reference "#PWR0395") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0368") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cd38e571-d26b-4e03-a1bb-453379ed1c3d"
-      (reference "#PWR0396") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/34441560-6cc1-48ac-9650-797105544252"
+      (reference "#PWR0369") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e17c64ae-7477-4ca7-8d86-086d4a02b9fd"
-      (reference "#PWR0397") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/676210c2-749c-46d7-b742-50a026eaedad"
+      (reference "#PWR0370") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/db98ca99-350c-472b-9f10-1710f25aca30"
-      (reference "#PWR0398") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/48987426-3732-4aa1-8b50-b42cbfe53d46"
+      (reference "#PWR0371") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c3a64131-b6e6-4626-b951-3929aac98917"
-      (reference "#PWR0399") (unit 1) (value "+2V5") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d8d3932a-ce68-44c6-8ca4-d4cac9672deb"
+      (reference "#PWR0372") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/10acb1ef-7ca3-470b-ba13-ba7f7e2e580a"
-      (reference "#PWR0400") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0373") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d6122b83-abb0-41e0-9fdd-71408aa7183f"
-      (reference "#PWR0401") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/2beac17d-adb8-4db3-9647-8f8d2d5a995b"
-      (reference "#PWR0402") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/fe3490da-560b-4b94-bc48-f0e4a9f16f80"
-      (reference "#PWR0403") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0374") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/18319e52-6e8d-4d2b-b49b-ec042cc139a0"
-      (reference "#PWR0404") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0375") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b41d59c6-c7a5-4c78-b3e7-bc89887426dc"
-      (reference "#PWR0405") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0376") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/64f0c278-514f-4c2d-ae85-d3f83fbc62a9"
-      (reference "#PWR0406") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0377") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e502ee5d-e161-4c42-b0da-d1768736a4c2"
-      (reference "#PWR0407") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0378") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bb6ef935-dca4-48bc-87e2-eb9dc6f82c8d"
-      (reference "#PWR0408") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0379") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c4fba979-b822-41a6-849d-2bea53bbda8b"
-      (reference "#PWR0409") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0380") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4db4ec7a-9a7f-4d2d-82e6-cbc0c8f3c617"
-      (reference "#PWR0410") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0381") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/82a700a7-2b56-4ba7-8d36-a23acf7e9887"
-      (reference "#PWR0411") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/46a9f762-d419-4317-8ad9-5b9634e99192"
-      (reference "#PWR0412") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0382") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/11abb5d0-9c5a-43e7-9733-c1460163c319"
-      (reference "#PWR0413") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0383") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/09bb46f7-9c79-4096-afd0-d46c43a9d9ac"
-      (reference "#PWR0414") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3725a024-1ce7-4111-90b9-76f7e5b8a722"
-      (reference "#PWR0415") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8852e9f0-6f59-4160-be52-eaaaea1abdb6"
-      (reference "#PWR0416") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c6561de7-47c9-4fd3-9135-fe63e56a7683"
-      (reference "#PWR0417") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b45d5031-7942-4a09-ba12-788ceff95d8b"
-      (reference "#PWR0418") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0384") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1b0061e8-c02e-49ca-80fa-4aa4296ccd6f"
-      (reference "#PWR0419") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0385") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7508ffb1-95c9-4383-9ac0-09ad3aec21a4"
-      (reference "#PWR0420") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c179601e-c842-4ffb-9f52-281edcf565b7"
-      (reference "#PWR0421") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0386") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/190907ed-14a7-4eec-9016-229c55e37edf"
-      (reference "#PWR0422") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0387") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4aa819bd-9388-4668-b7dd-711c73ecf80d"
-      (reference "#PWR0423") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0388") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b180fb87-812d-4818-a792-c70f9b4e68bb"
-      (reference "#PWR0424") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0389") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/950a8b92-b8da-40bc-9857-23ff881a6c73"
-      (reference "#PWR0425") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0390") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/746dd138-f74e-469b-954b-176d5b47b9c2"
-      (reference "#PWR0426") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0391") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c9b59125-f202-4b68-a16f-4a1a4f3305b1"
-      (reference "#PWR0427") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0392") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8868f45f-fe52-4bb2-be88-a43e6db94989"
-      (reference "#PWR0428") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0393") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/22bf7bed-7375-4c8c-919b-6b58c9b54aac"
-      (reference "#PWR0429") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bcf6cb18-82cd-4626-8c07-12c49c3d2aa6"
-      (reference "#PWR0430") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/63e66c68-f173-4187-9de7-563a977c6e21"
-      (reference "#PWR0431") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0394") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3e1274dc-bcb8-4280-badd-e1f7cdbb1600"
-      (reference "#PWR0432") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0395") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a51750e9-006b-45c0-a054-83673d4f77da"
-      (reference "#PWR0433") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/949f7e7a-324b-45d9-aa25-7ee4938ee00f"
-      (reference "#PWR0434") (unit 1) (value "+2V5") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b5b0a446-44cc-40ad-836f-8f22092d4f7f"
-      (reference "#PWR0435") (unit 1) (value "+2V5") (footprint "")
+      (reference "#PWR0396") (unit 1) (value "Earth") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/0708c204-8993-4383-941b-2efd272a5af9"
-      (reference "#PWR0436") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0406") (unit 1) (value "Earth") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/3ca8501a-ac1c-4dbd-b508-43ccd93db3c3"
-      (reference "#PWR0437") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0407") (unit 1) (value "Earth") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/f5768ba3-d72a-4225-96b4-e59023e242cc"
-      (reference "#PWR0438") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0408") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/3845856e-faf0-4175-88bf-b3f807d1bd42"
-      (reference "#PWR0439") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d8aea5d3-c990-4595-9b18-405031e4688e"
-      (reference "#PWR0440") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d06345ca-b910-4ff5-9d53-12fcd35491bf"
-      (reference "#PWR0441") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/63569341-01c8-450d-b967-2d1b7ac9ea38"
-      (reference "#PWR0442") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0409") (unit 1) (value "Earth") (footprint "")
     )
     (path "/32649939-5b86-4c76-a306-ac8e855c28f4/486b6edb-ef98-41c5-84e0-05930fb13c71"
       (reference "#PWR0501") (unit 1) (value "Earth") (footprint "")
@@ -4263,15 +4173,6 @@
     )
     (path "/32649939-5b86-4c76-a306-ac8e855c28f4/1dd95cab-2d27-443f-aae0-edae021060f0"
       (reference "#PWR0503") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/051573e6-49b4-493c-b5ea-52935ca816c2"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/59d4f2c6-0d26-45be-9153-9b82b86a9e87"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a5781e58-697a-4895-adcd-7064a1c83938"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/8679ce40-96af-43dc-9836-479948215d84"
       (reference "AE401") (unit 1) (value "Active") (footprint "")
@@ -4327,29 +4228,65 @@
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0e412d79-2b94-4ee9-ae39-fbf92c78f26a"
       (reference "C201") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/4f59c4b9-d97e-4722-b595-2454ddaa3980"
-      (reference "C202") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ec14224b-2052-4c66-9660-91a31078a0f7"
+      (reference "C202") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/942a86e5-1015-4852-bef0-c5fbf378710a"
-      (reference "C206") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0d07e71a-8dd4-4414-bde6-b8180ede88b6"
+      (reference "C203") (unit 1) (value "1u") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3a1bf5e7-02fe-4a5e-96cd-5035c6ded57a"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/b60ed418-4e0f-498c-a534-42a8b53cdd18"
+      (reference "C204") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3c54abf9-81dd-4855-b648-22cab7723ce8"
+      (reference "C205") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/02aa5a48-f9fa-4249-a3d3-ed0e8082bac5"
+      (reference "C206") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3d0e6b63-cfce-4d1d-b4b3-88ed2e1f41fa"
+      (reference "C207") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/5008b3c1-6328-4337-b9d8-27bb77a8b9ce"
+      (reference "C208") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7d3f01e1-551b-4e37-a82c-f09ecea9eb33"
+      (reference "C209") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3916efdd-5e85-4ade-8779-51854427d5dd"
       (reference "C210") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7bb854b7-212b-4a13-8d7b-31ec5f666d7c"
-      (reference "C211") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/48d4bf29-b6ec-4072-8af4-c6ecc4af7ef3"
+      (reference "C211") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/41db8668-a577-42b5-a2c3-d0dd68672c05"
-      (reference "C212") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/49d4ae57-9332-48c7-b39d-e21c622a27ec"
+      (reference "C212") (unit 1) (value "47n") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/30336418-d315-44a4-a0ba-352257ac701e"
-      (reference "C214") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2219507c-1cfa-47d7-ae8a-2b40f6dbf624"
+      (reference "C213") (unit 1) (value "120p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/64f95aad-9676-4ca6-9f13-4e956d1332cb"
-      (reference "C215") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c6c99f03-942e-4c10-9d7d-03793ecfacb2"
+      (reference "C214") (unit 1) (value "120p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f0653b71-07bc-4990-84c7-0108039d2122"
-      (reference "C216") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/48fa2b6a-28f1-40b1-b836-81b58c873e6d"
+      (reference "C215") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/e7044203-fbc6-43df-a9ae-c4708402bbc2"
+      (reference "C216") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/459091be-d5a5-49eb-be4f-fef2d2c9c5c2"
+      (reference "C217") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/385fc401-591a-40ac-a0e7-d36ee6fdbbe2"
+      (reference "C218") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/53c3ecff-a0a3-4559-9345-516623b4273e"
+      (reference "C219") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/70b2310a-6765-4863-9c3f-f4b117f3cd20"
+      (reference "C220") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f9b09404-b5ac-404a-a938-6d4d0ef299b2"
+      (reference "C221") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f1fceaca-23b9-4e18-a949-86ee054a348a"
       (reference "C301") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4435,9 +4372,6 @@
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/dbc6447b-c8d4-4e5f-b417-f23dc6d168a9"
       (reference "C328") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d7bc13f1-b9ad-40f3-a33c-df2c6fb2a15a"
-      (reference "C329") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/bce1dc0f-d756-4b3e-ac33-efbd382a65b2"
       (reference "C401") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -4453,41 +4387,8 @@
     (path "/32649939-5b86-4c76-a306-ac8e855c28f4/7ecc8322-baff-421e-86cd-1b1155409e64"
       (reference "C504") (unit 1) (value "10u") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/125b41e4-9010-452d-9a14-345742c859dd"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/459091be-d5a5-49eb-be4f-fef2d2c9c5c2"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/463c4b6b-9779-4690-8c17-849d18e32c5e"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/49d4ae57-9332-48c7-b39d-e21c622a27ec"
-      (reference "C?") (unit 1) (value "47n") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/5187089c-4ec6-45f4-a63a-746e6809c0b4"
-      (reference "C?") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6fe792ec-577c-4188-b4a0-07496bdfc2c9"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/9411ef3c-fe3f-42a1-a02f-85e8b9de0b0d"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/94e64f7a-9b43-421c-b819-dfa57161bb2b"
-      (reference "C?") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/aab6c5ed-ce73-41ef-b446-904c4b98350d"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c1d758e7-46e3-461d-902e-63c26e6702f5"
-      (reference "C?") (unit 1) (value "47n") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/da8c918f-262b-4592-9654-25e406bb8ee6"
-      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/e7044203-fbc6-43df-a9ae-c4708402bbc2"
-      (reference "C?") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0e857757-6ccd-49f6-9a31-4e96697e22b3"
+      (reference "D201") (unit 1) (value "BAT54") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d4e9280b-898c-4743-a288-723f803d3e2f"
       (reference "D301") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
@@ -4507,23 +4408,23 @@
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c90bedd0-417f-42cc-8033-7c9c4da84b8c"
       (reference "D306") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
-    (path "/1b05bbbe-0365-4227-8fdc-a1210fc41c29"
-      (reference "H101") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    (path "/55a480a7-619e-4b1d-8dfe-e15c1e03207f"
+      (reference "H101") (unit 1) (value "TOP_LEFT") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/cfc9fcac-4d4c-4c23-ba5e-4b5ef2b36e57"
-      (reference "H102") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    (path "/372888fc-ff19-42a1-9d2b-1a4b7411baf4"
+      (reference "H102") (unit 1) (value "BOT_LEFT") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/005d81a7-5d97-40c6-a9e1-6d21411e9384"
-      (reference "H103") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    (path "/c5a35b1a-805d-40e7-807d-b27de09b8f43"
+      (reference "H103") (unit 1) (value "TOP_MID") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/ec35adec-c5c2-4aa1-8de2-b3dc7c5e0825"
-      (reference "H104") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    (path "/c6a01bf2-e968-4628-97fb-a0f9f6998480"
+      (reference "H104") (unit 1) (value "BOT_MID") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/fc1c565d-d0ce-453f-b9db-7997bc187040"
-      (reference "H105") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    (path "/3effcea1-9f93-4131-b9fc-6bbff92d49ee"
+      (reference "H105") (unit 1) (value "TOP_RIGHT") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/559b23a8-a782-4e04-ac09-a6e982f925c2"
-      (reference "H106") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    (path "/ab8b0b80-246f-42d3-a770-f85e4e72d30c"
+      (reference "H106") (unit 1) (value "BOT_RIGHT") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
     (path "/6b8f22b3-a99c-4e03-8e2c-b74e75839799"
       (reference "HSE101") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
@@ -4537,8 +4438,8 @@
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/274b11b0-edb1-49fd-889c-a6f6718d1342"
       (reference "J201") (unit 1) (value "USB_C_2.0") (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/89bc8619-53f1-4a8c-8050-cd2feb9aee70"
-      (reference "J202") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/026ddfc9-03c8-45d1-aad8-d52bc83bce18"
+      (reference "J202") (unit 1) (value "BATT") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/3633f66d-8938-4e6e-a978-a11c15af0d9c"
       (reference "J401") (unit 1) (value "U.FL") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
@@ -4546,17 +4447,23 @@
     (path "/32649939-5b86-4c76-a306-ac8e855c28f4/b1e461cd-b012-41fd-ba13-14c841b49c19"
       (reference "J501") (unit 1) (value "1-1734839-6") (footprint "clock:TE_1-1734839-6")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/640421b2-42ac-401d-9609-97e49c44d84d"
-      (reference "L201") (unit 1) (value "540n") (footprint "Inductor_SMD:L_0805_2012Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/b85bf0cb-3295-4016-bb45-e34bf6e428e5"
+      (reference "L201") (unit 1) (value "470n") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/db7dbf57-8cc0-42cb-b5b6-120173e29286"
-      (reference "L202") (unit 1) (value "540n") (footprint "Inductor_SMD:L_0805_2012Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/e8b9d6d0-83b8-49b2-b5bf-6b3618297e67"
+      (reference "L202") (unit 1) (value "470n") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c511f21d-1e45-4489-b401-65722347df03"
       (reference "L203") (unit 1) (value "1u") (footprint "clock:Bourns_SRP2512")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/da215395-b759-4a6b-a72e-f2742f23d2d3"
       (reference "L401") (unit 1) (value "27n") (footprint "Inductor_SMD:L_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/cc09903b-42d9-43f7-af71-a39703fe98c3"
+      (reference "Q201") (unit 1) (value "PMPB17EP") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6ea3f94d-11c7-42a8-a677-8fa0d611e723"
+      (reference "Q202") (unit 1) (value "PMPB17EP") (footprint "")
     )
     (path "/7f04d072-391b-4af5-8d96-b4b0a42d27d6"
       (reference "R101") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4582,11 +4489,53 @@
     (path "/8309ebc2-cb84-4962-8a40-98457dffc562"
       (reference "R108") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/807b5102-45ea-4e56-a5e3-bf531837dbfb"
-      (reference "R209") (unit 1) (value "5.23k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a26a9ea2-c168-472e-901f-27736aba4d68"
+      (reference "R201") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/05dee9a3-c031-4d06-82c5-ef9909ee1539"
-      (reference "R210") (unit 1) (value "30.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/e72028ed-2955-485f-8390-47e1aea83e84"
+      (reference "R202") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/53b5ed4e-9b48-4725-8adb-2a87dd5e7a6a"
+      (reference "R203") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/d1ee5466-3577-4587-b1a8-823e4dbfa233"
+      (reference "R204") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/eb93401b-35ea-45e6-baf9-48c38b4e791e"
+      (reference "R205") (unit 1) (value "100") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7bc44dce-a9cc-4981-af01-920e9b7c6890"
+      (reference "R206") (unit 1) (value "820") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c7d2e178-18a3-44ba-9a92-8923909c4836"
+      (reference "R207") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/04260108-597b-4f4a-b011-03d4a3224e5b"
+      (reference "R208") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/67206d1d-0475-4b4b-899d-3482d5ab17bb"
+      (reference "R209") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/65ec1431-695d-4944-aeae-6f19cd1ef805"
+      (reference "R210") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7d69442a-ac5e-466b-8f8b-204da010a2b5"
+      (reference "R211") (unit 1) (value "316k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/9d304601-e787-49e8-9000-44f3690386af"
+      (reference "R212") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0d4941a9-aacf-45cd-8029-7872b0f53a01"
+      (reference "R213") (unit 1) (value "316k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0f047678-9ab5-4cd5-84b6-6f36cfe94404"
+      (reference "R214") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/b49ae5ab-36ab-4863-a185-ad9d78ae2387"
+      (reference "R215") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/448f1a51-1a82-4739-b829-b63324abc1b0"
+      (reference "R216") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4b007a37-2853-45e0-9a97-5c493e2207bc"
       (reference "R301") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4639,9 +4588,6 @@
     (path "/32649939-5b86-4c76-a306-ac8e855c28f4/f1913774-a8df-4eec-80ee-e1b7f9b855a0"
       (reference "R502") (unit 1) (value "5.1k") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c62ac110-3e89-475c-89a2-96f38aba86e6"
-      (reference "R?") (unit 1) (value "30.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/816dfba2-bb17-4fa3-92bc-2023976f3902"
       (reference "SW101") (unit 1) (value "BOOT_JMP") (footprint "clock:EVQP4xB3x")
     )
@@ -4663,17 +4609,26 @@
     (path "/53f6d224-5642-4117-8e8d-c180dc7e4e75"
       (reference "U104") (unit 1) (value "MS8607") (footprint "clock:MS8607")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6becdfdf-42d1-41f0-bbd4-f828292f8b40"
-      (reference "U201") (unit 1) (value "RP509Z331B") (footprint "Package_CSP:WLCSP-6_1.4x1.0mm_P0.4mm")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/32c43157-13f7-4d1d-a8f9-e70d786d345e"
+      (reference "U201") (unit 1) (value "LP5912-3.3DRV") (footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7f2cdb90-5a1a-4b1c-a6a9-2326c89f84d5"
-      (reference "U202") (unit 1) (value "RP509Z251B") (footprint "Package_CSP:WLCSP-6_1.4x1.0mm_P0.4mm")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/edaef257-85f8-4317-9ab1-4b77b01a6290"
+      (reference "U202") (unit 1) (value "STUSB4500QTR") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/280fbfe7-80dc-4274-b1b7-76a388c95ab4"
+      (reference "U203") (unit 1) (value "BQ25892") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/b1b79ba1-5d97-4715-b1e7-1d9c4be9e273"
+      (reference "U204") (unit 1) (value "TPS62827DMQ") (footprint "clock:VSON-6-HR")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/bff85f0f-baaa-4137-9b0d-8056fc26e695"
+      (reference "U205") (unit 1) (value "TPS62827DMQ") (footprint "clock:VSON-6-HR")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b9c95ca2-a7b1-44de-9f8d-f4ea8d9de37b"
-      (reference "U301") (unit 1) (value "DG0") (footprint "clock:7seg 0.56in smd")
+      (reference "U301") (unit 1) (value "DG0") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/9cbdba80-31c0-46ff-b4f4-fcd9803c5026"
-      (reference "U302") (unit 1) (value "DG1") (footprint "clock:7seg 0.56in smd")
+      (reference "U302") (unit 1) (value "DG1") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7b2e0f15-3ed2-4737-9ea0-1c013dfcf7f2"
       (reference "U303") (unit 1) (value "LED_CC7") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
@@ -4682,118 +4637,130 @@
       (reference "U304") (unit 1) (value "LED_CC6") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b8708ef1-ec42-4d83-84ed-b228b4946742"
-      (reference "U305") (unit 1) (value "DG2") (footprint "clock:7seg 0.56in smd")
+      (reference "U305") (unit 1) (value "DG2") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a12afd85-bdc0-40a4-9de9-c8bc93c0aeac"
-      (reference "U306") (unit 1) (value "DG3") (footprint "clock:7seg 0.56in smd")
+      (reference "U306") (unit 1) (value "DG3") (footprint "clock:7seg 0.8in smd")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7df9c250-6b83-4664-a880-cdefb102f603"
+      (reference "U307") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/01feccdd-3430-41ae-a723-954cdb377926"
+      (reference "U308") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f85835f5-8ea5-4383-b071-de6247aa94a0"
-      (reference "U307") (unit 1) (value "DG4") (footprint "clock:7seg 0.56in smd")
+      (reference "U309") (unit 1) (value "DG4") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bc2dc674-c5e3-4e6a-842e-232b997e2f15"
-      (reference "U308") (unit 1) (value "DG5") (footprint "clock:7seg 0.56in smd")
+      (reference "U310") (unit 1) (value "DG5") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ff13a671-b490-41ac-906d-b275f4b93d46"
-      (reference "U309") (unit 1) (value "LED_CC8") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U311") (unit 1) (value "LED_CC8") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c1fe550c-43a7-4645-97e7-6ee0c7a7b768"
-      (reference "U310") (unit 1) (value "LED_CC5") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U312") (unit 1) (value "LED_CC5") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b4c13656-1c32-4dcb-b7ba-db265f43cf83"
-      (reference "U311") (unit 1) (value "DG6") (footprint "clock:7seg 0.56in smd")
+      (reference "U313") (unit 1) (value "DG6") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b3c35725-c66e-4e22-8459-74b1b36d9c37"
-      (reference "U312") (unit 1) (value "DG7") (footprint "clock:7seg 0.56in smd")
+      (reference "U314") (unit 1) (value "DG7") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ffa17efa-986a-47e6-9d62-52ee321bde8e"
-      (reference "U313") (unit 1) (value "DG8") (footprint "clock:7seg 0.56in smd")
+      (reference "U315") (unit 1) (value "DG8") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6d7a9a06-e0c4-4e62-b466-e32b3b0dab41"
-      (reference "U314") (unit 1) (value "DG9") (footprint "clock:7seg 0.56in smd")
+      (reference "U316") (unit 1) (value "DG9") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6fbce15c-c69c-4743-a445-d62d8e57864d"
-      (reference "U315") (unit 1) (value "LED_CC9") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U317") (unit 1) (value "LED_CC9") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ae32fd6c-9021-416d-b008-03ad3476db5b"
-      (reference "U316") (unit 1) (value "LED_CC4") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U318") (unit 1) (value "LED_CC4") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d34fa503-156e-4893-94e9-0be52eb15d72"
-      (reference "U317") (unit 1) (value "DG10") (footprint "clock:14seg 0.4in smd")
+      (reference "U319") (unit 1) (value "DG10") (footprint "clock:14seg 0.4in smd")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/93718079-7c2a-4095-a0f3-045fd592014d"
+      (reference "U320") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/0ce78525-7e9f-4c9f-bc22-1e89a6649c5f"
-      (reference "U318") (unit 1) (value "DG11") (footprint "clock:7seg 0.56in smd")
+      (reference "U321") (unit 1) (value "DG11") (footprint "clock:7seg 0.8in smd")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/5f4c0909-76fd-4cf2-b710-7e9df873d399"
+      (reference "U322") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ea55eda1-d2bf-4975-a108-6a4ddacb4dea"
-      (reference "U319") (unit 1) (value "DG12") (footprint "clock:7seg 0.56in smd")
+      (reference "U323") (unit 1) (value "DG12") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/482158ac-1729-4ee7-895c-aa165816b712"
-      (reference "U320") (unit 1) (value "LED_CC10") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U324") (unit 1) (value "LED_CC10") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cf69bb3d-4ebc-47d7-b59f-6b929e004686"
-      (reference "U321") (unit 1) (value "LED_CC3") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U325") (unit 1) (value "LED_CC3") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/214f2c07-2f66-400a-b171-98aa6ac60e3b"
-      (reference "U322") (unit 1) (value "DG13") (footprint "clock:7seg 0.56in smd")
+      (reference "U326") (unit 1) (value "DG13") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/503cc799-e710-4dc4-8b31-6d69dfab2e39"
-      (reference "U323") (unit 1) (value "DG14") (footprint "clock:7seg 0.56in smd")
+      (reference "U327") (unit 1) (value "DG14") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/5dc342b0-e258-4195-9337-5b122a141393"
-      (reference "U324") (unit 1) (value "DG15") (footprint "clock:7seg 0.56in smd")
+      (reference "U328") (unit 1) (value "DG15") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/68fa0ca8-9d7a-40f5-8c58-35413684892a"
-      (reference "U325") (unit 1) (value "LED_CC11") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U329") (unit 1) (value "LED_CC11") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d5ada112-7aed-4ff3-b302-6cc10dcbb643"
-      (reference "U326") (unit 1) (value "LED_CC2") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U330") (unit 1) (value "LED_CC2") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/67c965b0-ceb0-4bcc-af12-ece95c4d0f97"
-      (reference "U327") (unit 1) (value "DG16") (footprint "clock:7seg 0.56in smd")
+      (reference "U331") (unit 1) (value "DG16") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/df394e85-ce6b-48d2-8eb2-daa0bfbeeecf"
-      (reference "U328") (unit 1) (value "DG17") (footprint "clock:7seg 0.56in smd")
+      (reference "U332") (unit 1) (value "DG17") (footprint "clock:7seg 0.8in smd")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e41b691a-9aee-4253-99f3-a87477753bd2"
+      (reference "U333") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ce533b84-4dfa-48b9-9470-fc7a301770fd"
+      (reference "U334") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/720649e3-f446-4813-bc37-e9a015789357"
-      (reference "U329") (unit 1) (value "DG18") (footprint "clock:7seg 0.56in smd")
+      (reference "U335") (unit 1) (value "DG18") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7e9c9fad-e83d-453d-ba0c-2eb5f252e93c"
-      (reference "U330") (unit 1) (value "DG19") (footprint "clock:7seg 0.56in smd")
+      (reference "U336") (unit 1) (value "DG19") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7a2c2db4-7d94-4d78-8030-ac9e148ece80"
-      (reference "U331") (unit 1) (value "LED_CC12") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U337") (unit 1) (value "LED_CC12") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c8556069-eee6-4805-9799-d4cd3b79abbf"
-      (reference "U332") (unit 1) (value "LED_CC1") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U338") (unit 1) (value "LED_CC1") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/665638c9-6f1c-43c5-b2e3-0563697fee65"
-      (reference "U333") (unit 1) (value "DG20") (footprint "clock:14seg 0.4in smd")
+      (reference "U339") (unit 1) (value "DG20") (footprint "clock:14seg 0.4in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/85fd24df-04bd-41f9-8ae4-93b3c0b45366"
-      (reference "U334") (unit 1) (value "DG21") (footprint "clock:7seg 0.56in smd")
+      (reference "U340") (unit 1) (value "DG21") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cff1f77c-987b-4fb0-a617-93900f3ccc55"
-      (reference "U335") (unit 1) (value "DG22") (footprint "clock:7seg 0.56in smd")
+      (reference "U341") (unit 1) (value "DG22") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8c5e53da-7df1-42ac-96ef-7ecaefef3a42"
-      (reference "U336") (unit 1) (value "LED_CC13") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U342") (unit 1) (value "LED_CC13") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e2acefa7-ed34-41d8-abbb-d5a1d9cd87f7"
-      (reference "U337") (unit 1) (value "LED_CC0") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
+      (reference "U343") (unit 1) (value "LED_CC0") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/60acd1e5-dbd6-4d6c-a4f5-9dbce60b90b8"
-      (reference "U338") (unit 1) (value "DG23") (footprint "clock:7seg 0.56in smd")
+      (reference "U344") (unit 1) (value "DG23") (footprint "clock:7seg 0.8in smd")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/dad078f7-0e1d-4415-8e54-ef19ab1e970b"
-      (reference "U339") (unit 1) (value "DG24") (footprint "clock:7seg 0.56in smd")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f58d3e8f-7176-48e3-9986-da344ab35a44"
-      (reference "U340") (unit 1) (value "74LVC3G17") (footprint "clock:PSON50P100X195X50-8N")
+      (reference "U345") (unit 1) (value "DG24") (footprint "clock:7seg 0.8in smd")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/cf78feb9-62e4-494f-83b0-e981a0203e4b"
       (reference "U401") (unit 1) (value "MAX-M10S") (footprint "clock:UBLOX_MAX-M10S")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/5ff6861c-3d3d-4d30-b2b5-5542134e3d46"
-      (reference "U?") (unit 1) (value "BQ25792RQM") (footprint "")
     )
   )
 )
