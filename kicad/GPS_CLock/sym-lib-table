@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "Clock")(type "KiCad")(uri "/home/wol/Documents/GPS_CLock3/kicad/Clock.kicad_sym")(options "")(descr ""))
+  (lib (name "Clock")(type "KiCad")(uri "/home/wol/Documents/GPS_CLock3/kicad/lib/Clock.kicad_sym")(options "")(descr ""))
 )

@@ -924,7 +924,7 @@
     (property "Value" "BQ25892" (id 1) (at 0 -21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_DFN_QFN:Texas_S-PWQFN-N24_EP2.7x2.7mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
