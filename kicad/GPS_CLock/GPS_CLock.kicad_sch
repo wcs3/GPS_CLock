@@ -4241,7 +4241,7 @@
       (reference "C116") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0e412d79-2b94-4ee9-ae39-fbf92c78f26a"
-      (reference "C201") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C201") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ec14224b-2052-4c66-9660-91a31078a0f7"
       (reference "C202") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4298,7 +4298,7 @@
       (reference "C219") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/70b2310a-6765-4863-9c3f-f4b117f3cd20"
-      (reference "C220") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C220") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f9b09404-b5ac-404a-a938-6d4d0ef299b2"
       (reference "C221") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
