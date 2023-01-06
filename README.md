@@ -1,6 +1,6 @@
 # GPS_CLock
 
-A device that displays time on 7-segment displays in ISO8601 format.
+A device that displays time and date on 7-segment displays in ISO8601 format.
 
 Features:
  - Retrieves accurate time from GPS satellites
