@@ -25,4 +25,9 @@
   (pad "7" smd oval (at -0.25 -1.4) (size 0.3 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a97bcc29-c0b2-4ba5-8d59-6c32d6502480))
   (pad "8" smd oval (at -0.75 -1.4) (size 0.3 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a97bcc29-c0b2-4ba5-8d59-6c32d6502480))
   (pad "9" smd rect (at 0 0) (size 1.65 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f64e2f60-a864-40b3-95ff-0b8a7f994cdb))
+  (model "/home/wol/Documents/GPS_CLock3/kicad/3d/W25Q16JVUXIQ.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

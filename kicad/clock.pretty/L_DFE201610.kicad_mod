@@ -20,4 +20,9 @@
   (fp_rect (start -1 -0.8) (end 1 0.8) (layer "F.Fab") (width 0.05) (fill none) (tstamp 898cdc62-97b8-4f03-b206-42b78e263ef6))
   (pad "1" smd rect (at -0.8 0) (size 0.8 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp be939d2e-959d-4225-a103-7a767cd10f57))
   (pad "2" smd rect (at 0.8 0) (size 0.8 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 926b1822-7177-48db-8d2e-15e6c739022a))
+  (model "/home/wol/Documents/GPS_CLock3/kicad/3d/DFE201610P-R47M=P2.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
