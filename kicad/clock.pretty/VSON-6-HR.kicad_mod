@@ -23,4 +23,9 @@
   (pad "4" smd roundrect (at 0.45 0.5) (size 1 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a3d5b8cd-ff06-43da-bdc6-04ae265f66a2))
   (pad "5" smd roundrect (at 0.45 0) (size 1 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d5410b45-4986-40ca-b2c3-df30358519e3))
   (pad "6" smd roundrect (at 0.45 -0.5) (size 1 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp b7956baf-27f2-4c65-b1a0-87bcbd1f04b5))
+  (model "/home/wol/Documents/GPS_CLock3/kicad/3d/VSON-HR-6.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

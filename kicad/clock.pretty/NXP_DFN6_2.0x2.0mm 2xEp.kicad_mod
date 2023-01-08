@@ -25,4 +25,9 @@
   (pad "6" smd rect (at 0.95 -0.65) (size 0.4 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 78426555-dc13-49ce-ab54-d74ea02fddae))
   (pad "7" smd rect (at 0 -0.275) (size 1.2 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2f802191-b03a-41b3-a241-9f3992e207a9))
   (pad "8" smd rect (at 0 0.715) (size 0.8 0.46) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6076388c-cd08-4194-8d82-1d639f4087f9))
+  (model "/home/wol/Documents/GPS_CLock3/kicad/3d/User Library-PMPB95ENEA.STEP"
+    (offset (xyz -1 -1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

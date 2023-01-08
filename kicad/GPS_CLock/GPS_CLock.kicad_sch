@@ -924,7 +924,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"+1V1\"" (id 5) (at 0 0 0)
@@ -976,7 +976,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (id 5) (at 0 0 0)
@@ -1028,7 +1028,7 @@
       (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag ground gnd" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global ground gnd" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"Earth\"" (id 5) (at 0 0 0)
@@ -1169,7 +1169,9 @@
   )
 
   (no_connect (at 163.83 119.38) (uuid 164dc0ab-8817-477b-90da-8324502c2de3))
-  (no_connect (at 243.84 88.9) (uuid f9a81ecd-8918-4d7f-b6a4-173f600413e0))
+  (no_connect (at 163.83 81.28) (uuid 4ac6d618-afdf-4966-ad86-1b8a757b1b23))
+  (no_connect (at 163.83 96.52) (uuid cb2d0ccf-70a3-4a9d-82ea-0e1873ad8384))
+  (no_connect (at 163.83 78.74) (uuid d6ab360f-1e6b-4cc4-af03-e9419521a0fa))
 
   (wire (pts (xy 53.34 124.46) (xy 49.53 124.46))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1546,6 +1548,10 @@
   (wire (pts (xy 76.2 46.99) (xy 86.36 46.99))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7e3b3048-badd-4570-b59e-dd7b4a71c079)
+  )
+  (wire (pts (xy 177.8 76.2) (xy 163.83 76.2))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 7e7644a1-b0aa-4279-8b54-163d565cd721)
   )
   (wire (pts (xy 106.68 109.22) (xy 113.03 109.22))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2128,6 +2134,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ad23b084-5cf5-4215-8c4f-8a7d451d9789)
   )
+  (label "PD_INT" (at 177.8 76.2 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b2f28140-8c8c-4a61-8504-9d4bfb0b7aba)
+  )
   (label "GPS_TX" (at 198.12 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b4297c9c-182d-4fa0-9c7a-503f0ffcf964)
@@ -2227,7 +2237,7 @@
   (symbol (lib_id "power:Earth") (at 251.46 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0b923d76-8e7c-475c-b118-0abda436a947)
-    (property "Reference" "#PWR0124" (id 0) (at 251.46 41.91 0)
+    (property "Reference" "#PWR0126" (id 0) (at 251.46 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 251.46 39.37 0)
@@ -2245,10 +2255,10 @@
   (symbol (lib_id "power:+3V3") (at 261.62 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 111c8122-1f00-4bda-88ab-e169681fff30)
-    (property "Reference" "#PWR0128" (id 0) (at 261.62 146.05 0)
+    (property "Reference" "#PWR0118" (id 0) (at 261.62 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 261.62 138.43 0))
+    (property "Value" "+3V3" (id 1) (at 261.62 138.684 0))
     (property "Footprint" "" (id 2) (at 261.62 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2280,10 +2290,10 @@
   (symbol (lib_id "power:+3V3") (at 222.25 142.24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 230bd46d-ce32-4542-b05b-f5666eeba4c3)
-    (property "Reference" "#PWR0120" (id 0) (at 222.25 146.05 0)
+    (property "Reference" "#PWR0121" (id 0) (at 222.25 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 222.25 138.43 0))
+    (property "Value" "+3V3" (id 1) (at 222.25 138.684 0))
     (property "Footprint" "" (id 2) (at 222.25 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2296,7 +2306,7 @@
   (symbol (lib_id "power:Earth") (at 214.63 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 27be5a5b-ebf2-4f9a-b5ad-29170e63edca)
-    (property "Reference" "#PWR0119" (id 0) (at 214.63 43.18 0)
+    (property "Reference" "#PWR0122" (id 0) (at 214.63 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 214.63 40.64 0)
@@ -2314,7 +2324,7 @@
   (symbol (lib_id "power:Earth") (at 63.5 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 294ee6a2-da98-4388-b81f-5255fcc9afc1)
-    (property "Reference" "#PWR0104" (id 0) (at 63.5 60.96 0)
+    (property "Reference" "#PWR0101" (id 0) (at 63.5 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 63.5 58.42 0)
@@ -2351,7 +2361,7 @@
   (symbol (lib_id "power:Earth") (at 80.01 184.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2b7d7520-59ed-4247-9831-253cb5898429)
-    (property "Reference" "#PWR0107" (id 0) (at 80.01 190.5 0)
+    (property "Reference" "#PWR0110" (id 0) (at 80.01 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 80.01 187.96 0)
@@ -2388,7 +2398,7 @@
   (symbol (lib_id "power:Earth") (at 66.04 33.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3143e9e0-a747-4d64-905a-8831c6f96d73)
-    (property "Reference" "#PWR0105" (id 0) (at 66.04 39.37 0)
+    (property "Reference" "#PWR0102" (id 0) (at 66.04 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 66.04 36.83 0)
@@ -2428,7 +2438,7 @@
     (property "Reference" "#PWR0106" (id 0) (at 80.01 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 80.01 160.02 0))
+    (property "Value" "+3V3" (id 1) (at 80.01 160.274 0))
     (property "Footprint" "" (id 2) (at 80.01 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2465,7 +2475,7 @@
     (property "Value" "BTN_DWN" (id 1) (at 184.15 149.8599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2" (id 2) (at 177.8 148.59 0)
+    (property "Footprint" "clock:SW_SPST_EVQP2" (id 2) (at 177.8 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 177.8 148.59 0)
@@ -2554,7 +2564,7 @@
   (symbol (lib_id "power:Earth") (at 77.47 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 44632651-bf26-49bc-aa1f-73f1add4c386)
-    (property "Reference" "#PWR0114" (id 0) (at 77.47 156.21 0)
+    (property "Reference" "#PWR0107" (id 0) (at 77.47 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 77.47 153.67 0)
@@ -2609,7 +2619,7 @@
   (symbol (lib_id "power:Earth") (at 22.86 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 55e7cedc-1e0e-4664-94c9-9b3665509c0e)
-    (property "Reference" "#PWR0101" (id 0) (at 22.86 59.69 0)
+    (property "Reference" "#PWR0104" (id 0) (at 22.86 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 22.86 57.15 0)
@@ -2648,10 +2658,10 @@
   (symbol (lib_id "power:+3V3") (at 77.47 132.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7349c140-4455-4cfe-b0b1-71ea17d9d50e)
-    (property "Reference" "#PWR0115" (id 0) (at 77.47 135.89 0)
+    (property "Reference" "#PWR0113" (id 0) (at 77.47 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 77.47 128.27 0))
+    (property "Value" "+3V3" (id 1) (at 77.47 128.524 0))
     (property "Footprint" "" (id 2) (at 77.47 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2727,7 +2737,7 @@
     (property "Value" "BOOT_JMP" (id 1) (at 24.13 49.5299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2" (id 2) (at 17.78 48.26 0)
+    (property "Footprint" "clock:SW_SPST_EVQP2" (id 2) (at 17.78 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 17.78 48.26 0)
@@ -2759,7 +2769,7 @@
   (symbol (lib_id "power:Earth") (at 109.22 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8320da25-b8ad-4eff-b5c1-1ae68b1135c4)
-    (property "Reference" "#PWR0110" (id 0) (at 109.22 43.18 0)
+    (property "Reference" "#PWR0111" (id 0) (at 109.22 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 109.22 40.64 0)
@@ -2777,7 +2787,7 @@
   (symbol (lib_id "power:Earth") (at 236.22 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8ae84807-e2f4-4693-99d7-98411b0b8dc3)
-    (property "Reference" "#PWR0123" (id 0) (at 236.22 57.15 0)
+    (property "Reference" "#PWR0119" (id 0) (at 236.22 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 236.22 54.61 0)
@@ -2801,7 +2811,7 @@
     (property "Value" "RUN" (id 1) (at 24.13 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2" (id 2) (at 17.78 73.66 0)
+    (property "Footprint" "clock:SW_SPST_EVQP2" (id 2) (at 17.78 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 17.78 73.66 0)
@@ -2867,10 +2877,10 @@
   (symbol (lib_id "power:+3V3") (at 229.87 144.78 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9e530418-cc34-4944-93c7-9b42d9812d5e)
-    (property "Reference" "#PWR0121" (id 0) (at 229.87 148.59 0)
+    (property "Reference" "#PWR0120" (id 0) (at 229.87 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 229.87 140.97 0))
+    (property "Value" "+3V3" (id 1) (at 229.87 141.224 0))
     (property "Footprint" "" (id 2) (at 229.87 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2905,7 +2915,7 @@
     (property "Reference" "#PWR0109" (id 0) (at 109.22 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+1V1" (id 1) (at 109.22 21.59 0))
+    (property "Value" "+1V1" (id 1) (at 109.22 23.114 0))
     (property "Footprint" "" (id 2) (at 109.22 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2936,7 +2946,7 @@
   (symbol (lib_id "power:Earth") (at 251.46 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a8cafcf1-5bca-4e33-8a72-799cb618cd08)
-    (property "Reference" "#PWR0125" (id 0) (at 251.46 57.15 0)
+    (property "Reference" "#PWR0127" (id 0) (at 251.46 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 251.46 54.61 0)
@@ -3073,7 +3083,7 @@
   (symbol (lib_id "power:Earth") (at 266.7 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c16fcf3d-c0d7-4318-9192-f39c3b413162)
-    (property "Reference" "#PWR0126" (id 0) (at 266.7 41.91 0)
+    (property "Reference" "#PWR0124" (id 0) (at 266.7 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 266.7 39.37 0)
@@ -3091,10 +3101,10 @@
   (symbol (lib_id "power:+3V3") (at 182.88 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c382e96f-3aab-4a69-9f6e-61425b25987e)
-    (property "Reference" "#PWR0118" (id 0) (at 182.88 147.32 0)
+    (property "Reference" "#PWR0129" (id 0) (at 182.88 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 182.88 139.7 0))
+    (property "Value" "+3V3" (id 1) (at 182.88 139.954 0))
     (property "Footprint" "" (id 2) (at 182.88 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3162,7 +3172,7 @@
   (symbol (lib_id "power:Earth") (at 266.7 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c85552a9-b01b-448d-b6cc-2d7eae37d947)
-    (property "Reference" "#PWR0127" (id 0) (at 266.7 57.15 0)
+    (property "Reference" "#PWR0125" (id 0) (at 266.7 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 266.7 54.61 0)
@@ -3180,7 +3190,7 @@
   (symbol (lib_id "power:Earth") (at 236.22 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cca125ae-9fe2-4299-9880-bff1fd4ba6ab)
-    (property "Reference" "#PWR0122" (id 0) (at 236.22 41.91 0)
+    (property "Reference" "#PWR0123" (id 0) (at 236.22 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 236.22 39.37 0)
@@ -3236,7 +3246,7 @@
   (symbol (lib_id "power:Earth") (at 111.76 120.65 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d23b9e80-fb7e-4ad5-b9a6-0b1d80554288)
-    (property "Reference" "#PWR0111" (id 0) (at 111.76 127 0)
+    (property "Reference" "#PWR0114" (id 0) (at 111.76 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 111.76 124.46 0)
@@ -3257,7 +3267,7 @@
     (property "Reference" "#PWR0103" (id 0) (at 63.5 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 63.5 21.59 0))
+    (property "Value" "+3V3" (id 1) (at 63.5 21.844 0))
     (property "Footprint" "" (id 2) (at 63.5 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3276,7 +3286,7 @@
     (property "Value" "BTN_UP" (id 1) (at 166.37 149.8599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2" (id 2) (at 160.02 148.59 0)
+    (property "Footprint" "clock:SW_SPST_EVQP2" (id 2) (at 160.02 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 160.02 148.59 0)
@@ -3289,10 +3299,10 @@
   (symbol (lib_id "power:+3V3") (at 269.24 144.78 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d55726a3-fc64-42ed-8534-ddf88ad7ab60)
-    (property "Reference" "#PWR0129" (id 0) (at 269.24 148.59 0)
+    (property "Reference" "#PWR0117" (id 0) (at 269.24 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 269.24 140.97 0))
+    (property "Value" "+3V3" (id 1) (at 269.24 141.224 0))
     (property "Footprint" "" (id 2) (at 269.24 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3329,7 +3339,7 @@
   (symbol (lib_id "power:Earth") (at 22.86 78.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid df9710be-6925-4e97-80eb-a8a5992d4b7e)
-    (property "Reference" "#PWR0116" (id 0) (at 22.86 85.09 0)
+    (property "Reference" "#PWR0105" (id 0) (at 22.86 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 22.86 82.55 0)
@@ -3347,7 +3357,7 @@
   (symbol (lib_id "power:Earth") (at 49.53 125.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e4980117-3160-469a-ab8c-8cdccad04e91)
-    (property "Reference" "#PWR0102" (id 0) (at 49.53 132.08 0)
+    (property "Reference" "#PWR0116" (id 0) (at 49.53 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 49.53 129.54 0)
@@ -3403,10 +3413,10 @@
   (symbol (lib_id "power:+3V3") (at 140.97 26.67 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid efefa446-c744-4c91-9bb5-3c24dc046cef)
-    (property "Reference" "#PWR0113" (id 0) (at 140.97 30.48 0)
+    (property "Reference" "#PWR0115" (id 0) (at 140.97 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 140.97 22.86 0))
+    (property "Value" "+3V3" (id 1) (at 140.97 23.114 0))
     (property "Footprint" "" (id 2) (at 140.97 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3419,10 +3429,10 @@
   (symbol (lib_id "power:+3V3") (at 165.1 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f3852b71-26bf-47f1-bf6c-b8bcbe47e811)
-    (property "Reference" "#PWR0117" (id 0) (at 165.1 147.32 0)
+    (property "Reference" "#PWR0128" (id 0) (at 165.1 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (id 1) (at 165.1 139.7 0))
+    (property "Value" "+3V3" (id 1) (at 165.1 139.954 0))
     (property "Footprint" "" (id 2) (at 165.1 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3523,10 +3533,6 @@
     (pin "PD_SCL" input (at 243.84 86.36 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9cf7f95b-d559-41b0-845a-af5b982fbee0)
-    )
-    (pin "PD_GPIO" input (at 243.84 88.9 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid bfe9e0dd-24a7-4457-b40d-7fd1dc432c86)
     )
     (pin "PD_SDA" input (at 243.84 91.44 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3655,37 +3661,40 @@
   )
 
   (symbol_instances
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0bfcb598-c926-403b-ac10-66112425a6b5"
-      (reference "#FLG0201") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6e3eb9fa-d777-432e-906e-fdaaf1be6b40"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/03d34019-3f81-4fbd-aa99-27e131879867"
-      (reference "#FLG0202") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/cae3d42c-e868-48bb-9a5d-ce45f0f572e7"
-      (reference "#FLG0203") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0bfcb598-c926-403b-ac10-66112425a6b5"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/8fa97b83-182c-467e-8d18-54ccfe9ec2a4"
-      (reference "#FLG0204") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/55e7cedc-1e0e-4664-94c9-9b3665509c0e"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c4007a48-1b19-4c36-99ca-c1fad0f0b676"
+      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/294ee6a2-da98-4388-b81f-5255fcc9afc1"
       (reference "#PWR0101") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/e4980117-3160-469a-ab8c-8cdccad04e91"
+    (path "/3143e9e0-a747-4d64-905a-8831c6f96d73"
       (reference "#PWR0102") (unit 1) (value "Earth") (footprint "")
     )
     (path "/d340cb88-dedb-4be1-a2bc-0c199e124bb9"
       (reference "#PWR0103") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/294ee6a2-da98-4388-b81f-5255fcc9afc1"
+    (path "/55e7cedc-1e0e-4664-94c9-9b3665509c0e"
       (reference "#PWR0104") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/3143e9e0-a747-4d64-905a-8831c6f96d73"
+    (path "/df9710be-6925-4e97-80eb-a8a5992d4b7e"
       (reference "#PWR0105") (unit 1) (value "Earth") (footprint "")
     )
     (path "/367698fd-542d-4cfc-9247-513ef4359085"
       (reference "#PWR0106") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/2b7d7520-59ed-4247-9831-253cb5898429"
+    (path "/44632651-bf26-49bc-aa1f-73f1add4c386"
       (reference "#PWR0107") (unit 1) (value "Earth") (footprint "")
     )
     (path "/a8458e61-c0ae-4a1b-a398-b7c5457672b2"
@@ -3694,506 +3703,533 @@
     (path "/a7c2be99-d31b-48af-8005-8e7416a69971"
       (reference "#PWR0109") (unit 1) (value "+1V1") (footprint "")
     )
-    (path "/8320da25-b8ad-4eff-b5c1-1ae68b1135c4"
+    (path "/2b7d7520-59ed-4247-9831-253cb5898429"
       (reference "#PWR0110") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/d23b9e80-fb7e-4ad5-b9a6-0b1d80554288"
+    (path "/8320da25-b8ad-4eff-b5c1-1ae68b1135c4"
       (reference "#PWR0111") (unit 1) (value "Earth") (footprint "")
     )
     (path "/3aeb0c0d-d0e3-4303-8840-0635afc7ee73"
       (reference "#PWR0112") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/efefa446-c744-4c91-9bb5-3c24dc046cef"
+    (path "/7349c140-4455-4cfe-b0b1-71ea17d9d50e"
       (reference "#PWR0113") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/44632651-bf26-49bc-aa1f-73f1add4c386"
+    (path "/d23b9e80-fb7e-4ad5-b9a6-0b1d80554288"
       (reference "#PWR0114") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/7349c140-4455-4cfe-b0b1-71ea17d9d50e"
+    (path "/efefa446-c744-4c91-9bb5-3c24dc046cef"
       (reference "#PWR0115") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/df9710be-6925-4e97-80eb-a8a5992d4b7e"
+    (path "/e4980117-3160-469a-ab8c-8cdccad04e91"
       (reference "#PWR0116") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/f3852b71-26bf-47f1-bf6c-b8bcbe47e811"
+    (path "/d55726a3-fc64-42ed-8534-ddf88ad7ab60"
       (reference "#PWR0117") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/c382e96f-3aab-4a69-9f6e-61425b25987e"
+    (path "/111c8122-1f00-4bda-88ab-e169681fff30"
       (reference "#PWR0118") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/27be5a5b-ebf2-4f9a-b5ad-29170e63edca"
+    (path "/8ae84807-e2f4-4693-99d7-98411b0b8dc3"
       (reference "#PWR0119") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/230bd46d-ce32-4542-b05b-f5666eeba4c3"
+    (path "/9e530418-cc34-4944-93c7-9b42d9812d5e"
       (reference "#PWR0120") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/9e530418-cc34-4944-93c7-9b42d9812d5e"
+    (path "/230bd46d-ce32-4542-b05b-f5666eeba4c3"
       (reference "#PWR0121") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/cca125ae-9fe2-4299-9880-bff1fd4ba6ab"
+    (path "/27be5a5b-ebf2-4f9a-b5ad-29170e63edca"
       (reference "#PWR0122") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/8ae84807-e2f4-4693-99d7-98411b0b8dc3"
+    (path "/cca125ae-9fe2-4299-9880-bff1fd4ba6ab"
       (reference "#PWR0123") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/0b923d76-8e7c-475c-b118-0abda436a947"
+    (path "/c16fcf3d-c0d7-4318-9192-f39c3b413162"
       (reference "#PWR0124") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/a8cafcf1-5bca-4e33-8a72-799cb618cd08"
+    (path "/c85552a9-b01b-448d-b6cc-2d7eae37d947"
       (reference "#PWR0125") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/c16fcf3d-c0d7-4318-9192-f39c3b413162"
+    (path "/0b923d76-8e7c-475c-b118-0abda436a947"
       (reference "#PWR0126") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/c85552a9-b01b-448d-b6cc-2d7eae37d947"
+    (path "/a8cafcf1-5bca-4e33-8a72-799cb618cd08"
       (reference "#PWR0127") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/111c8122-1f00-4bda-88ab-e169681fff30"
+    (path "/f3852b71-26bf-47f1-bf6c-b8bcbe47e811"
       (reference "#PWR0128") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/d55726a3-fc64-42ed-8534-ddf88ad7ab60"
+    (path "/c382e96f-3aab-4a69-9f6e-61425b25987e"
       (reference "#PWR0129") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ff8e6c56-4728-4704-88b9-657a3014f63f"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6ba82cb2-cd00-4c86-be0f-c9633d722071"
       (reference "#PWR0130") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ff4e7dc1-2241-4656-8db8-0a1b74a7a27e"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f518bc46-12c0-42e2-828f-5f185d62789b"
       (reference "#PWR0131") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/79f0365d-7521-494d-878e-087434196ee0"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6fc4812e-e26f-4d1f-b7c6-69f434de8664"
       (reference "#PWR0132") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/493d4866-2df3-4741-a1d8-0ef5c3ea13fd"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a23774e4-30ef-4ed7-8054-9192b297bf4d"
       (reference "#PWR0133") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8a44e938-62c0-4051-82c5-fae8da30ca48"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/d20793a9-160d-4911-88a9-961a04cf08c7"
       (reference "#PWR0134") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6acb6484-2d2a-45b0-b81f-b2145da9399a"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fbb5163c-3f39-464b-92a0-f032011ee4f6"
       (reference "#PWR0135") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/98311331-bdce-4a77-8b4e-2fb56cebc98d"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fbf0fa63-2565-436b-84e0-19ca4dde08f9"
       (reference "#PWR0136") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/991f304c-2384-43e4-afca-67887e16629d"
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/8f8e52b0-381f-4210-861d-475d07ef4724"
       (reference "#PWR0137") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fbf0fa63-2565-436b-84e0-19ca4dde08f9"
-      (reference "#PWR0201") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/c4a9d0dc-56f8-4500-bc43-1827b117242a"
-      (reference "#PWR0202") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fbb5163c-3f39-464b-92a0-f032011ee4f6"
-      (reference "#PWR0203") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/8f8e52b0-381f-4210-861d-475d07ef4724"
-      (reference "#PWR0204") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6fc4812e-e26f-4d1f-b7c6-69f434de8664"
-      (reference "#PWR0205") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a23774e4-30ef-4ed7-8054-9192b297bf4d"
-      (reference "#PWR0206") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fd0bd7c4-497b-489e-9371-d4616d6d3c94"
-      (reference "#PWR0207") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3c4b2fc7-1f8b-46ee-bd20-2516b9de25b6"
-      (reference "#PWR0208") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7e1b2a22-b8f1-4b50-b5ab-a4db43d2ad70"
-      (reference "#PWR0209") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/d20793a9-160d-4911-88a9-961a04cf08c7"
-      (reference "#PWR0210") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f518bc46-12c0-42e2-828f-5f185d62789b"
-      (reference "#PWR0211") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/6ba82cb2-cd00-4c86-be0f-c9633d722071"
-      (reference "#PWR0212") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/024be546-9ee3-4be6-ac9f-068531698216"
-      (reference "#PWR0213") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0138") (unit 1) (value "Earth") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2a061f10-b960-4c32-a879-fd30a2b4cfb5"
-      (reference "#PWR0214") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0139") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/244c023d-3e34-4b23-a025-623db68808ed"
-      (reference "#PWR0215") (unit 1) (value "Earth") (footprint "")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/024be546-9ee3-4be6-ac9f-068531698216"
+      (reference "#PWR0140") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f8c75a5d-108a-41a4-b27b-e9c682ff6001"
-      (reference "#PWR0216") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/746b76c9-6641-4d78-8fe0-e562a5ff775d"
-      (reference "#PWR0217") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ba591e44-31e1-4151-b930-d021b5d5ba23"
-      (reference "#PWR0218") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/485bda05-1634-4703-8503-1c406e19530a"
-      (reference "#PWR0219") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1171ccbe-64cd-4a05-9f2b-c50ba25ca412"
-      (reference "#PWR0220") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2fb7059a-267f-4d05-9692-2fc3bdc1438b"
-      (reference "#PWR0221") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1a089633-b7e8-47bb-ba27-56dbdea637a7"
-      (reference "#PWR0222") (unit 1) (value "Earth") (footprint "")
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3c4b2fc7-1f8b-46ee-bd20-2516b9de25b6"
+      (reference "#PWR0141") (unit 1) (value "Earth") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2deb9621-7716-44f3-91bf-74eb41237895"
-      (reference "#PWR0223") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0142") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ba591e44-31e1-4151-b930-d021b5d5ba23"
+      (reference "#PWR0143") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1171ccbe-64cd-4a05-9f2b-c50ba25ca412"
+      (reference "#PWR0144") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/746b76c9-6641-4d78-8fe0-e562a5ff775d"
+      (reference "#PWR0145") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ff8e6c56-4728-4704-88b9-657a3014f63f"
+      (reference "#PWR0146") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ff4e7dc1-2241-4656-8db8-0a1b74a7a27e"
+      (reference "#PWR0147") (unit 1) (value "Earth") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/808dd022-1523-4771-aef4-cd5fa721d5e4"
-      (reference "#PWR0224") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3fe6919e-fdf3-4405-bdab-7b21a88fb60d"
-      (reference "#PWR0225") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1508bbd2-51b3-4723-93a9-24f9fd735d97"
-      (reference "#PWR0226") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/287c42dc-19bf-46da-b9c2-346779200940"
-      (reference "#PWR0227") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/545b40fc-d6bb-4839-8261-205ca57c2530"
-      (reference "#PWR0228") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/4f85c6a6-fd72-4464-9e53-bfd143affcca"
-      (reference "#PWR0229") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0148") (unit 1) (value "Earth") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/e19daa23-de2a-4ecf-9453-0406957955b3"
+      (reference "#PWR0149") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/4f85c6a6-fd72-4464-9e53-bfd143affcca"
+      (reference "#PWR0150") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/287c42dc-19bf-46da-b9c2-346779200940"
+      (reference "#PWR0151") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/d5045d1d-63bc-4d2e-b5c7-d15535ea9eba"
+      (reference "#PWR0152") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/545b40fc-d6bb-4839-8261-205ca57c2530"
+      (reference "#PWR0153") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/dfb55799-1391-471d-b190-9dcecb42bda1"
+      (reference "#PWR0154") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/485bda05-1634-4703-8503-1c406e19530a"
+      (reference "#PWR0155") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/244c023d-3e34-4b23-a025-623db68808ed"
+      (reference "#PWR0156") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f8c75a5d-108a-41a4-b27b-e9c682ff6001"
+      (reference "#PWR0157") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/2fb7059a-267f-4d05-9692-2fc3bdc1438b"
+      (reference "#PWR0158") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/3fe6919e-fdf3-4405-bdab-7b21a88fb60d"
+      (reference "#PWR0159") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1508bbd2-51b3-4723-93a9-24f9fd735d97"
+      (reference "#PWR0160") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1a089633-b7e8-47bb-ba27-56dbdea637a7"
+      (reference "#PWR0161") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/11abb5d0-9c5a-43e7-9733-c1460163c319"
+      (reference "#PWR0162") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/18319e52-6e8d-4d2b-b49b-ec042cc139a0"
+      (reference "#PWR0163") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e502ee5d-e161-4c42-b0da-d1768736a4c2"
+      (reference "#PWR0164") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4db4ec7a-9a7f-4d2d-82e6-cbc0c8f3c617"
+      (reference "#PWR0165") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8868f45f-fe52-4bb2-be88-a43e6db94989"
+      (reference "#PWR0166") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3e1274dc-bcb8-4280-badd-e1f7cdbb1600"
+      (reference "#PWR0167") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1b0061e8-c02e-49ca-80fa-4aa4296ccd6f"
+      (reference "#PWR0168") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/190907ed-14a7-4eec-9016-229c55e37edf"
+      (reference "#PWR0169") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/950a8b92-b8da-40bc-9857-23ff881a6c73"
+      (reference "#PWR0170") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a51750e9-006b-45c0-a054-83673d4f77da"
+      (reference "#PWR0171") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/22bf7bed-7375-4c8c-919b-6b58c9b54aac"
+      (reference "#PWR0172") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/82a700a7-2b56-4ba7-8d36-a23acf7e9887"
+      (reference "#PWR0173") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/09bb46f7-9c79-4096-afd0-d46c43a9d9ac"
+      (reference "#PWR0174") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7508ffb1-95c9-4383-9ac0-09ad3aec21a4"
+      (reference "#PWR0175") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4aa819bd-9388-4668-b7dd-711c73ecf80d"
+      (reference "#PWR0176") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c9b59125-f202-4b68-a16f-4a1a4f3305b1"
+      (reference "#PWR0177") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c25aad9a-f195-4357-a224-5daf2f736816"
+      (reference "#PWR0178") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/392830db-59c9-4783-bf8f-bbf8ba1e7a79"
+      (reference "#PWR0179") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d6122b83-abb0-41e0-9fdd-71408aa7183f"
+      (reference "#PWR0180") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c4fba979-b822-41a6-849d-2bea53bbda8b"
+      (reference "#PWR0181") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b41d59c6-c7a5-4c78-b3e7-bc89887426dc"
+      (reference "#PWR0182") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d8d3932a-ce68-44c6-8ca4-d4cac9672deb"
+      (reference "#PWR0183") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/2789178d-a16c-4a93-9ec1-21c6154484ea"
+      (reference "#PWR0184") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/393f2c1b-d99e-476e-b130-d9332adabcb9"
+      (reference "#PWR0185") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f68dd39e-bd11-4ba3-a9ce-ca221d22fcd9"
+      (reference "#PWR0186") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b4e3b4ea-cc5f-4014-86bd-ce17d0246685"
+      (reference "#PWR0187") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8ada5234-4da5-4149-8a21-0ea170014861"
+      (reference "#PWR0188") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f6f262bb-4653-4f08-9ca6-86ecfbe0b370"
+      (reference "#PWR0189") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/328fb6b0-a126-4d5a-ab3f-40b5100cd5ba"
+      (reference "#PWR0190") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6a7556e4-97ba-4c06-a7b9-919ef7b813c3"
+      (reference "#PWR0191") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/885b83af-8027-4ec3-add8-c22207ab7270"
+      (reference "#PWR0192") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/687d3827-4611-4a23-835c-d4598b680903"
+      (reference "#PWR0193") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1abd368f-5c8d-4715-8ec7-3bc8d6aeb9d9"
+      (reference "#PWR0194") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/991f304c-2384-43e4-afca-67887e16629d"
+      (reference "#PWR0195") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/efce064a-a073-4b52-a5b1-13f76bb21b9e"
+      (reference "#PWR0196") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a4edfd30-b3cb-42fd-a986-5ece255b436b"
+      (reference "#PWR0197") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1f23bea7-8c43-4aa1-bd0d-19bcc7e5850f"
+      (reference "#PWR0198") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8a44e938-62c0-4051-82c5-fae8da30ca48"
+      (reference "#PWR0199") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/916ead8e-a41e-479e-9a5c-0a7a12ffc964"
+      (reference "#PWR0200") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f1288290-77a0-4a1e-b9db-45fa215e1b9a"
+      (reference "#PWR0201") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/676210c2-749c-46d7-b742-50a026eaedad"
+      (reference "#PWR0202") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/10acb1ef-7ca3-470b-ba13-ba7f7e2e580a"
+      (reference "#PWR0203") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/23a067f5-a65d-4285-82b4-509176a1a723"
+      (reference "#PWR0204") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a8729667-3cc9-47a9-94c6-768122a9ffc1"
+      (reference "#PWR0205") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ad801841-cf88-4c09-8cf3-4f14b1307b64"
+      (reference "#PWR0206") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7e1b2a22-b8f1-4b50-b5ab-a4db43d2ad70"
+      (reference "#PWR0207") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1590ebe1-b24a-47ee-8bb6-ce930722c1a4"
+      (reference "#PWR0208") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/fd0bd7c4-497b-489e-9371-d4616d6d3c94"
+      (reference "#PWR0209") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f87a574f-9905-4899-84a9-2cb61ee11e49"
+      (reference "#PWR0210") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6ce48b52-06c5-4ae8-96eb-43551591d246"
+      (reference "#PWR0211") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d3b04e0d-fc71-48cf-8846-b89d92cd08b4"
+      (reference "#PWR0212") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/493d4866-2df3-4741-a1d8-0ef5c3ea13fd"
+      (reference "#PWR0213") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/69ffd319-e6c2-48e9-88f2-8f6c2eba665a"
+      (reference "#PWR0214") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1a12339d-9125-4253-a49a-32d71eeca84e"
+      (reference "#PWR0215") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8f6cb346-74cc-449a-9d12-b9536b0b12f0"
+      (reference "#PWR0216") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/52e09350-5822-411c-8950-9c5348e99ff2"
+      (reference "#PWR0217") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a4b745ae-5b5f-4677-9c3e-acd29510cb6a"
+      (reference "#PWR0218") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/52481bb2-709f-45b5-ae6b-5d2429743bb9"
+      (reference "#PWR0219") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bc90091b-2995-40c0-9a17-36b76bc688d8"
+      (reference "#PWR0220") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e7762523-d51a-4308-b957-5127ba7be178"
+      (reference "#PWR0221") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ec12f94e-3412-4b7c-9a00-7d5fa706a768"
+      (reference "#PWR0222") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/db54c920-b8d8-443b-af6e-03823d55a022"
+      (reference "#PWR0223") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6acb6484-2d2a-45b0-b81f-b2145da9399a"
+      (reference "#PWR0224") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e5ec59e4-df81-43bc-9c7e-9287dfb11fa9"
+      (reference "#PWR0225") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/98d294a6-18c3-45aa-b5e3-0655cf1db2dd"
+      (reference "#PWR0226") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/21e7250d-4a50-4629-8f20-370588c14ed4"
+      (reference "#PWR0227") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/55900f82-1b90-4f98-b6e6-e294cdaf709e"
+      (reference "#PWR0228") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a362982d-d42e-4d52-b163-02581b500c19"
+      (reference "#PWR0229") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4f124144-a966-4d82-8b0b-1ba5c22fdacf"
       (reference "#PWR0230") (unit 1) (value "Earth") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7edd453b-f6f9-404d-b6a2-aa56146267a3"
       (reference "#PWR0231") (unit 1) (value "+BATT") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/dfb55799-1391-471d-b190-9dcecb42bda1"
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/fd951f47-2766-4170-8bc5-36bfc3ff3993"
       (reference "#PWR0232") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/d5045d1d-63bc-4d2e-b5c7-d15535ea9eba"
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/61d450c4-7016-4db2-bbb1-d4ef5d63772d"
       (reference "#PWR0233") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d4ff9393-6ca9-4194-ad9e-0a5390539d90"
-      (reference "#PWR0301") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3c20eae2-3b9a-4a8f-bd84-9bdaf5372e1e"
-      (reference "#PWR0302") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4a405959-7fef-4e4b-8781-70978e869298"
-      (reference "#PWR0303") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0234") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d07266d0-5233-4425-9b60-4565dec48126"
-      (reference "#PWR0304") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0235") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cd934968-1fd2-4649-ae54-bc6786ab9a8d"
-      (reference "#PWR0305") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1cff698e-8a64-43f3-9de9-5124574ba9e6"
-      (reference "#PWR0306") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f7271148-dd40-4c6e-9145-07f17e0323b6"
-      (reference "#PWR0307") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/61d450c4-7016-4db2-bbb1-d4ef5d63772d"
-      (reference "#PWR0308") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4aac94e9-770b-4612-aa14-bbaa323f330c"
-      (reference "#PWR0309") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/fd951f47-2766-4170-8bc5-36bfc3ff3993"
-      (reference "#PWR0310") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3779dc67-193c-48e5-b886-23e348ad8711"
-      (reference "#PWR0311") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4f124144-a966-4d82-8b0b-1ba5c22fdacf"
-      (reference "#PWR0312") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4d870229-4116-4cd7-aed3-195c0f5717f4"
-      (reference "#PWR0313") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/198a6216-9948-4b9a-b5cc-1778c612e6b5"
-      (reference "#PWR0314") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7cc3f943-f5aa-4a16-b6a2-e7a0b277eab7"
-      (reference "#PWR0315") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/41308789-84cc-4f8f-9046-b5991d47d1ba"
-      (reference "#PWR0316") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e5c0f02a-13db-40f0-88f8-3900eeb46eae"
-      (reference "#PWR0317") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/98311331-bdce-4a77-8b4e-2fb56cebc98d"
+      (reference "#PWR0236") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d49dc772-384a-4ccf-a29e-622992468435"
-      (reference "#PWR0318") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0237") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/285399d2-cfba-43c2-82b4-765d223b8e8c"
-      (reference "#PWR0319") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4076932a-d579-46c4-98ff-adfa973e76a6"
-      (reference "#PWR0320") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/45e63cf2-f651-4ef1-8481-5dfa14285268"
-      (reference "#PWR0321") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/92258e6e-166f-49d3-bea2-a743156fe084"
-      (reference "#PWR0322") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/576857c4-dcd9-4fc2-bf47-10a4787a1d05"
-      (reference "#PWR0323") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/86c73934-1a9d-4049-a702-3db5a8801217"
-      (reference "#PWR0324") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a4b745ae-5b5f-4677-9c3e-acd29510cb6a"
-      (reference "#PWR0325") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b7de9b78-1cbb-4ee4-9958-c8bc34dc9f71"
-      (reference "#PWR0326") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/52481bb2-709f-45b5-ae6b-5d2429743bb9"
-      (reference "#PWR0327") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/198a6216-9948-4b9a-b5cc-1778c612e6b5"
+      (reference "#PWR0238") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d0d06a09-9fee-41fb-a46b-326bbe5a3bf8"
-      (reference "#PWR0328") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0239") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1a12339d-9125-4253-a49a-32d71eeca84e"
-      (reference "#PWR0329") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4076932a-d579-46c4-98ff-adfa973e76a6"
+      (reference "#PWR0240") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bc90091b-2995-40c0-9a17-36b76bc688d8"
-      (reference "#PWR0330") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/86c73934-1a9d-4049-a702-3db5a8801217"
+      (reference "#PWR0241") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/52e09350-5822-411c-8950-9c5348e99ff2"
-      (reference "#PWR0331") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b7de9b78-1cbb-4ee4-9958-c8bc34dc9f71"
+      (reference "#PWR0242") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e5ec59e4-df81-43bc-9c7e-9287dfb11fa9"
-      (reference "#PWR0332") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/41308789-84cc-4f8f-9046-b5991d47d1ba"
+      (reference "#PWR0243") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/56bc4304-6ec6-46d8-adbc-20b7769f2d59"
-      (reference "#PWR0333") (unit 1) (value "+3V3") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/79f0365d-7521-494d-878e-087434196ee0"
+      (reference "#PWR0244") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8f6cb346-74cc-449a-9d12-b9536b0b12f0"
-      (reference "#PWR0334") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3779dc67-193c-48e5-b886-23e348ad8711"
+      (reference "#PWR0245") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3b388f62-b453-4bf8-84e3-7d3c80852579"
-      (reference "#PWR0335") (unit 1) (value "+3V3") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4aac94e9-770b-4612-aa14-bbaa323f330c"
+      (reference "#PWR0246") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/98d294a6-18c3-45aa-b5e3-0655cf1db2dd"
-      (reference "#PWR0336") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d4ff9393-6ca9-4194-ad9e-0a5390539d90"
+      (reference "#PWR0247") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d3b04e0d-fc71-48cf-8846-b89d92cd08b4"
-      (reference "#PWR0337") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1cff698e-8a64-43f3-9de9-5124574ba9e6"
+      (reference "#PWR0248") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ec12f94e-3412-4b7c-9a00-7d5fa706a768"
-      (reference "#PWR0338") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4a405959-7fef-4e4b-8781-70978e869298"
+      (reference "#PWR0249") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6ce48b52-06c5-4ae8-96eb-43551591d246"
-      (reference "#PWR0339") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/92258e6e-166f-49d3-bea2-a743156fe084"
+      (reference "#PWR0250") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e7762523-d51a-4308-b957-5127ba7be178"
-      (reference "#PWR0340") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/285399d2-cfba-43c2-82b4-765d223b8e8c"
+      (reference "#PWR0251") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/51b9eeb8-8fad-47be-8b4a-c055290842ae"
-      (reference "#PWR0341") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/55900f82-1b90-4f98-b6e6-e294cdaf709e"
-      (reference "#PWR0342") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cb6a63bc-1bef-44ea-99bb-774c2e83ffcc"
-      (reference "#PWR0343") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f87a574f-9905-4899-84a9-2cb61ee11e49"
-      (reference "#PWR0344") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/69ffd319-e6c2-48e9-88f2-8f6c2eba665a"
-      (reference "#PWR0345") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/db54c920-b8d8-443b-af6e-03823d55a022"
-      (reference "#PWR0346") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/efce064a-a073-4b52-a5b1-13f76bb21b9e"
-      (reference "#PWR0347") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/393f2c1b-d99e-476e-b130-d9332adabcb9"
-      (reference "#PWR0348") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/2d53715c-db97-4548-97dd-7b66235ebb18"
-      (reference "#PWR0349") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a4edfd30-b3cb-42fd-a986-5ece255b436b"
-      (reference "#PWR0350") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/54a672c5-d06f-4300-b720-d86e5391a7c1"
-      (reference "#PWR0351") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/2789178d-a16c-4a93-9ec1-21c6154484ea"
-      (reference "#PWR0352") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/ad801841-cf88-4c09-8cf3-4f14b1307b64"
-      (reference "#PWR0353") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f68dd39e-bd11-4ba3-a9ce-ca221d22fcd9"
-      (reference "#PWR0354") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1590ebe1-b24a-47ee-8bb6-ce930722c1a4"
-      (reference "#PWR0355") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b4e3b4ea-cc5f-4014-86bd-ce17d0246685"
-      (reference "#PWR0356") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1f23bea7-8c43-4aa1-bd0d-19bcc7e5850f"
-      (reference "#PWR0357") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8ada5234-4da5-4149-8a21-0ea170014861"
-      (reference "#PWR0358") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a8729667-3cc9-47a9-94c6-768122a9ffc1"
-      (reference "#PWR0359") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/687d3827-4611-4a23-835c-d4598b680903"
-      (reference "#PWR0360") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/842a6072-c200-409b-b206-1f38609d3999"
-      (reference "#PWR0361") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/23a067f5-a65d-4285-82b4-509176a1a723"
-      (reference "#PWR0362") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/5186d7ca-0796-4865-ab33-6cd61454c269"
-      (reference "#PWR0363") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1abd368f-5c8d-4715-8ec7-3bc8d6aeb9d9"
-      (reference "#PWR0364") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/916ead8e-a41e-479e-9a5c-0a7a12ffc964"
-      (reference "#PWR0365") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/885b83af-8027-4ec3-add8-c22207ab7270"
-      (reference "#PWR0366") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f1288290-77a0-4a1e-b9db-45fa215e1b9a"
-      (reference "#PWR0367") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/6a7556e4-97ba-4c06-a7b9-919ef7b813c3"
-      (reference "#PWR0368") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/34441560-6cc1-48ac-9650-797105544252"
-      (reference "#PWR0369") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/676210c2-749c-46d7-b742-50a026eaedad"
-      (reference "#PWR0370") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/48987426-3732-4aa1-8b50-b42cbfe53d46"
-      (reference "#PWR0371") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d8d3932a-ce68-44c6-8ca4-d4cac9672deb"
-      (reference "#PWR0372") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/10acb1ef-7ca3-470b-ba13-ba7f7e2e580a"
-      (reference "#PWR0373") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/d6122b83-abb0-41e0-9fdd-71408aa7183f"
-      (reference "#PWR0374") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/18319e52-6e8d-4d2b-b49b-ec042cc139a0"
-      (reference "#PWR0375") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b41d59c6-c7a5-4c78-b3e7-bc89887426dc"
-      (reference "#PWR0376") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/64f0c278-514f-4c2d-ae85-d3f83fbc62a9"
-      (reference "#PWR0377") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e502ee5d-e161-4c42-b0da-d1768736a4c2"
-      (reference "#PWR0378") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bb6ef935-dca4-48bc-87e2-eb9dc6f82c8d"
-      (reference "#PWR0379") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c4fba979-b822-41a6-849d-2bea53bbda8b"
-      (reference "#PWR0380") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4db4ec7a-9a7f-4d2d-82e6-cbc0c8f3c617"
-      (reference "#PWR0381") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/82a700a7-2b56-4ba7-8d36-a23acf7e9887"
-      (reference "#PWR0382") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/11abb5d0-9c5a-43e7-9733-c1460163c319"
-      (reference "#PWR0383") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/09bb46f7-9c79-4096-afd0-d46c43a9d9ac"
-      (reference "#PWR0384") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/1b0061e8-c02e-49ca-80fa-4aa4296ccd6f"
-      (reference "#PWR0385") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7508ffb1-95c9-4383-9ac0-09ad3aec21a4"
-      (reference "#PWR0386") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/190907ed-14a7-4eec-9016-229c55e37edf"
-      (reference "#PWR0387") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4aa819bd-9388-4668-b7dd-711c73ecf80d"
-      (reference "#PWR0388") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b180fb87-812d-4818-a792-c70f9b4e68bb"
-      (reference "#PWR0389") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/950a8b92-b8da-40bc-9857-23ff881a6c73"
-      (reference "#PWR0390") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/746dd138-f74e-469b-954b-176d5b47b9c2"
-      (reference "#PWR0391") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/c9b59125-f202-4b68-a16f-4a1a4f3305b1"
-      (reference "#PWR0392") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/8868f45f-fe52-4bb2-be88-a43e6db94989"
-      (reference "#PWR0393") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/22bf7bed-7375-4c8c-919b-6b58c9b54aac"
-      (reference "#PWR0394") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3e1274dc-bcb8-4280-badd-e1f7cdbb1600"
-      (reference "#PWR0395") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/a51750e9-006b-45c0-a054-83673d4f77da"
-      (reference "#PWR0396") (unit 1) (value "Earth") (footprint "")
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/e5c0f02a-13db-40f0-88f8-3900eeb46eae"
+      (reference "#PWR0252") (unit 1) (value "Earth") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/0708c204-8993-4383-941b-2efd272a5af9"
-      (reference "#PWR0406") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/3ca8501a-ac1c-4dbd-b508-43ccd93db3c3"
-      (reference "#PWR0407") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/f5768ba3-d72a-4225-96b4-e59023e242cc"
-      (reference "#PWR0408") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0253") (unit 1) (value "Earth") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/3845856e-faf0-4175-88bf-b3f807d1bd42"
-      (reference "#PWR0409") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0254") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/32649939-5b86-4c76-a306-ac8e855c28f4/e1283b4d-eff1-4afc-82e6-80978294adc0"
-      (reference "#PWR0501") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/32649939-5b86-4c76-a306-ac8e855c28f4/dcc098e6-06a8-484d-be1b-d02bceff96f3"
-      (reference "#PWR0502") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/32649939-5b86-4c76-a306-ac8e855c28f4/629dde0e-760c-4b22-afcc-218bdcdcc23a"
-      (reference "#PWR0503") (unit 1) (value "+3V3") (footprint "")
+    (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/3ca8501a-ac1c-4dbd-b508-43ccd93db3c3"
+      (reference "#PWR0255") (unit 1) (value "Earth") (footprint "")
     )
     (path "/32649939-5b86-4c76-a306-ac8e855c28f4/be56f835-51ed-4f1a-9bb6-4d8289680d23"
-      (reference "#PWR0504") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0256") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/32649939-5b86-4c76-a306-ac8e855c28f4/eebf55f1-b53a-4386-840e-7fba7a483467"
-      (reference "#PWR0505") (unit 1) (value "+3V3") (footprint "")
+    (path "/32649939-5b86-4c76-a306-ac8e855c28f4/dcc098e6-06a8-484d-be1b-d02bceff96f3"
+      (reference "#PWR0257") (unit 1) (value "Earth") (footprint "")
     )
     (path "/32649939-5b86-4c76-a306-ac8e855c28f4/1dd95cab-2d27-443f-aae0-edae021060f0"
-      (reference "#PWR0506") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0258") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/64f0c278-514f-4c2d-ae85-d3f83fbc62a9"
+      (reference "#PWR0259") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/746dd138-f74e-469b-954b-176d5b47b9c2"
+      (reference "#PWR0260") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/bb6ef935-dca4-48bc-87e2-eb9dc6f82c8d"
+      (reference "#PWR0261") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b180fb87-812d-4818-a792-c70f9b4e68bb"
+      (reference "#PWR0262") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f1135b1e-0878-44fb-bd54-5aeeb6bfcdea"
+      (reference "#PWR0263") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/48987426-3732-4aa1-8b50-b42cbfe53d46"
+      (reference "#PWR0264") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/54a672c5-d06f-4300-b720-d86e5391a7c1"
+      (reference "#PWR0265") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/5186d7ca-0796-4865-ab33-6cd61454c269"
+      (reference "#PWR0266") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/da37134c-7bc8-4d38-8796-d03fbfb2d403"
+      (reference "#PWR0267") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/34441560-6cc1-48ac-9650-797105544252"
+      (reference "#PWR0268") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/842a6072-c200-409b-b206-1f38609d3999"
+      (reference "#PWR0269") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/2d53715c-db97-4548-97dd-7b66235ebb18"
+      (reference "#PWR0270") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/56bc4304-6ec6-46d8-adbc-20b7769f2d59"
+      (reference "#PWR0271") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cb6a63bc-1bef-44ea-99bb-774c2e83ffcc"
+      (reference "#PWR0272") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/7cc3f943-f5aa-4a16-b6a2-e7a0b277eab7"
+      (reference "#PWR0273") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/3b388f62-b453-4bf8-84e3-7d3c80852579"
+      (reference "#PWR0274") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/51b9eeb8-8fad-47be-8b4a-c055290842ae"
+      (reference "#PWR0275") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/fc3cd8cd-84a7-4aa0-a80a-e33371d93e99"
+      (reference "#PWR0276") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f7271148-dd40-4c6e-9145-07f17e0323b6"
+      (reference "#PWR0277") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/4d870229-4116-4cd7-aed3-195c0f5717f4"
+      (reference "#PWR0278") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/576857c4-dcd9-4fc2-bf47-10a4787a1d05"
+      (reference "#PWR0279") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/45e63cf2-f651-4ef1-8481-5dfa14285268"
+      (reference "#PWR0280") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cd934968-1fd2-4649-ae54-bc6786ab9a8d"
+      (reference "#PWR0281") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/f5768ba3-d72a-4225-96b4-e59023e242cc"
+      (reference "#PWR0282") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/32649939-5b86-4c76-a306-ac8e855c28f4/629dde0e-760c-4b22-afcc-218bdcdcc23a"
+      (reference "#PWR0283") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/32649939-5b86-4c76-a306-ac8e855c28f4/e1283b4d-eff1-4afc-82e6-80978294adc0"
+      (reference "#PWR0284") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/32649939-5b86-4c76-a306-ac8e855c28f4/eebf55f1-b53a-4386-840e-7fba7a483467"
+      (reference "#PWR0285") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/8679ce40-96af-43dc-9836-479948215d84"
       (reference "AE401") (unit 1) (value "Active") (footprint "")
@@ -4417,6 +4453,15 @@
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/fb804fbf-8e0f-42d9-9f81-e6abdf3460eb"
       (reference "C334") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/dd2232c7-f7f6-4531-bfd0-96c142056bd6"
+      (reference "C335") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/328cb090-a26d-4189-a896-2d3ee7cb3c01"
+      (reference "C336") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/cfa8954f-0ae6-4c79-b468-bda09f8e18f2"
+      (reference "C337") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/bce1dc0f-d756-4b3e-ac33-efbd382a65b2"
       (reference "C401") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -4634,16 +4679,16 @@
       (reference "R502") (unit 1) (value "10") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/816dfba2-bb17-4fa3-92bc-2023976f3902"
-      (reference "SW101") (unit 1) (value "BOOT_JMP") (footprint "Button_Switch_SMD:SW_SPST_EVQP2")
+      (reference "SW101") (unit 1) (value "BOOT_JMP") (footprint "clock:SW_SPST_EVQP2")
     )
     (path "/d3bdb8df-19a1-4d8a-9dfb-35db01a7fc1d"
-      (reference "SW102") (unit 1) (value "BTN_UP") (footprint "Button_Switch_SMD:SW_SPST_EVQP2")
+      (reference "SW102") (unit 1) (value "BTN_UP") (footprint "clock:SW_SPST_EVQP2")
     )
     (path "/3a9c4da0-4f49-488f-8a50-e2b882e7a0da"
-      (reference "SW103") (unit 1) (value "BTN_DWN") (footprint "Button_Switch_SMD:SW_SPST_EVQP2")
+      (reference "SW103") (unit 1) (value "BTN_DWN") (footprint "clock:SW_SPST_EVQP2")
     )
     (path "/924729b6-f35c-47ec-bf5a-b5dde0e3cfa9"
-      (reference "SW104") (unit 1) (value "RUN") (footprint "Button_Switch_SMD:SW_SPST_EVQP2")
+      (reference "SW104") (unit 1) (value "RUN") (footprint "clock:SW_SPST_EVQP2")
     )
     (path "/b616feb9-0dfe-4528-bc37-d0e6cae1b2c9"
       (reference "U101") (unit 1) (value "W25Q16JVUXIQ") (footprint "clock:WINBOND_USON-8_2x3mm")
@@ -4803,6 +4848,15 @@
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/dad078f7-0e1d-4415-8e54-ef19ab1e970b"
       (reference "U345") (unit 1) (value "DG24") (footprint "clock:7seg 0.8in smd")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/0f4dcc6c-eb46-4cd9-be88-e5c7fe0ac7cc"
+      (reference "U346") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/38ac5ca4-f7f1-491a-abed-bf6cd99f0e37"
+      (reference "U347") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
+    )
+    (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/78b07aae-e639-4731-83ce-54082efe9c21"
+      (reference "U348") (unit 1) (value "74AUP2G17") (footprint "clock:XSON-6_SOT886")
     )
     (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/cf78feb9-62e4-494f-83b0-e981a0203e4b"
       (reference "U401") (unit 1) (value "MAX-M10S") (footprint "clock:UBLOX_MAX-M10S")
