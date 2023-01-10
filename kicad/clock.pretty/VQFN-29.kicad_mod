@@ -159,4 +159,9 @@
   (pad "27" smd roundrect (at 0 -1.7) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ebbe6406-ced7-4276-a9d7-f939a3227110))
   (pad "28" smd roundrect (at -0.45 -1.7) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bd1a3173-bb59-497e-bca0-4bec557a27a6))
   (pad "29" smd roundrect (at -0.9 -1.725) (size 0.2 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7b8a27e3-f84a-4570-9547-f0179f6d77dd))
+  (model "/home/wol/Documents/GPS_CLock3/kicad/3d/User Library-VQFN-HR-29.step"
+    (offset (xyz 0.363 -0.843 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
