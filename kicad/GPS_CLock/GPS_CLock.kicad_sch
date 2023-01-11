@@ -4677,9 +4677,6 @@
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ff4e7dc1-2241-4656-8db8-0a1b74a7a27e"
       (reference "#PWR0321") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/5ac93846-f9c5-452a-935f-ff2781cbf94f/8679ce40-96af-43dc-9836-479948215d84"
-      (reference "AE401") (unit 1) (value "Active") (footprint "")
-    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ef771f99-b638-41e6-acea-62059034e0e9"
       (reference "BT201") (unit 1) (value "Lipo") (footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
     )
@@ -5204,9 +5201,6 @@
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0667ef4c-0946-4dee-8919-a8a913a74a94"
       (reference "TP203") (unit 1) (value "2.5V_BOT") (footprint "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/e517c2d8-778e-4d4e-9c74-8461bb379564"
-      (reference "TP204") (unit 1) (value "3V3") (footprint "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm")
     )
     (path "/b616feb9-0dfe-4528-bc37-d0e6cae1b2c9"
       (reference "U101") (unit 1) (value "W25Q16JVUXIQ") (footprint "clock:WINBOND_USON-8_2x3mm")
