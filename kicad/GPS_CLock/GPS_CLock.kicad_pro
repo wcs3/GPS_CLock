@@ -386,7 +386,12 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "/Power/CON-D+": "rgb(0, 72, 0)",
+      "/Power/CON-D-": "rgb(0, 72, 0)",
+      "/Power/VBUS": "rgb(204, 102, 0)",
+      "Earth": "rgb(132, 132, 0)"
+    }
   },
   "pcbnew": {
     "last_paths": {

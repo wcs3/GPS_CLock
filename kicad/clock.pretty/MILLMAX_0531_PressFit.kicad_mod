@@ -16,4 +16,9 @@
   )
   (fp_rect (start -1 -1) (end 1 1) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp c578f538-061c-4d1c-b61f-117eac82cb19))
   (pad "1" thru_hole circle (at 0 0) (size 1.84 1.84) (drill 1.14) (layers *.Cu *.Mask) (tstamp 8fbfb7c0-0c58-4f58-835f-e60b5f8fbeda))
+  (model "/home/wol/Documents/GPS_CLock3/kicad/3d/mill-max-0531-0-15-15-31-XX-10-0.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -90 0))
+  )
 )

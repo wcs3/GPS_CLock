@@ -1051,9 +1051,6 @@
   (junction (at 80.01 165.1) (diameter 0) (color 0 0 0 0)
     (uuid 23438a70-9973-41ab-a446-dd7a3bd8bd07)
   )
-  (junction (at 163.83 43.18) (diameter 0) (color 0 0 0 0)
-    (uuid 2cde3e06-6515-4565-9e1d-aef4168d98e1)
-  )
   (junction (at 170.18 35.56) (diameter 0) (color 0 0 0 0)
     (uuid 2cfa0c22-e982-48c1-8279-75e36c6e79a6)
   )
@@ -1125,7 +1122,8 @@
   )
 
   (no_connect (at 163.83 119.38) (uuid 02238e2c-a261-42a1-b432-506abe80c48d))
-  (no_connect (at 163.83 45.72) (uuid df670044-21f6-4f90-a5d5-278b21f12f4f))
+  (no_connect (at 163.83 99.06) (uuid 4a4e2839-e5a6-4862-b1f6-e9babd62b9e1))
+  (no_connect (at 163.83 101.6) (uuid a8b298f0-4c1d-4503-98f0-88e16fafb331))
 
   (wire (pts (xy 53.34 124.46) (xy 49.53 124.46))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1175,6 +1173,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 08cfc338-bad6-4503-9813-aa910a5289a2)
   )
+  (wire (pts (xy 177.8 45.72) (xy 163.83 45.72))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 095bc663-4758-480b-9486-bae3b8155fc2)
+  )
   (wire (pts (xy 27.94 67.31) (xy 22.86 67.31))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0ce72ad5-aee1-49d4-a3ab-b7b37c834359)
@@ -1199,10 +1201,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 125c62d9-ec1f-43d7-b9db-e7ac15aba4b1)
   )
-  (wire (pts (xy 160.02 43.18) (xy 163.83 43.18))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 13aa98b6-85f7-4309-add6-5697a51544e9)
-  )
   (wire (pts (xy 163.83 76.2) (xy 177.8 76.2))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 143a992b-4d64-455d-baf8-3db4050037ec)
@@ -1210,6 +1208,10 @@
   (wire (pts (xy 250.19 151.13) (xy 269.24 151.13))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 179e75f4-2ec3-41b0-b4ad-101e35e6b94f)
+  )
+  (wire (pts (xy 229.87 127) (xy 243.84 127))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 1881465d-f0bd-4609-9378-227d46c2616d)
   )
   (wire (pts (xy 43.18 124.46) (xy 49.53 124.46))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1831,6 +1833,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e2120ed2-3f24-416c-9d48-f100bc0288f2)
   )
+  (wire (pts (xy 229.87 121.92) (xy 243.84 121.92))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e4e5319b-30a7-4279-805f-bfeac825b21a)
+  )
   (wire (pts (xy 80.01 165.1) (xy 80.01 166.37))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e5272300-3d8c-4791-9cfb-a739fbae7940)
@@ -1886,6 +1892,10 @@
   (wire (pts (xy 49.53 125.73) (xy 49.53 124.46))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fc04dc4f-beeb-4666-9975-476602a4e4c8)
+  )
+  (wire (pts (xy 229.87 129.54) (xy 243.84 129.54))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid fd0e3cb6-338f-4e38-893d-387f9a0e54b3)
   )
   (wire (pts (xy 228.6 163.83) (xy 237.49 163.83))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2000,6 +2010,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3cd46a12-10c6-4260-9f9e-48b7eec5625f)
   )
+  (label "USB_SW" (at 177.8 45.72 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 41825b39-ef76-4f04-a4d4-f983540f0b6f)
+  )
   (label "QSPI_SD0" (at 101.6 66.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44d60e25-2082-4000-93d6-a7e2e2c9301e)
@@ -2047,6 +2061,10 @@
   (label "SEN_SCL" (at 250.19 151.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5d6e4b7b-3f95-4008-9dc7-dbbcc3bd7d10)
+  )
+  (label "USB_SW" (at 229.87 121.92 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 606b32bf-247c-485b-a45a-2e7f36ee61cd)
   )
   (label "UART_TX" (at 177.8 86.36 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2172,6 +2190,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid abe76db4-1212-4c2f-974a-fe59704366c9)
   )
+  (label "SEN_SCL" (at 229.87 127 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ac2050b6-da7d-4c65-9ca3-13080be77b6c)
+  )
   (label "BATT_EN" (at 229.87 93.98 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ad23b084-5cf5-4215-8c4f-8a7d451d9789)
@@ -2235,6 +2257,10 @@
   (label "BTN_DWN" (at 172.72 154.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dd911be6-7654-4bac-bb50-4b575a668db5)
+  )
+  (label "SEN_SDA" (at 229.87 129.54 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dd95b265-7cd3-4405-b9d0-3cc23505e5ae)
   )
   (label "SEN_SCL" (at 177.8 114.3 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3849,14 +3875,14 @@
     (pin "9" (uuid e0537fa5-ce3d-4130-b7c1-118e3362401b))
   )
 
-  (sheet (at 243.84 80.01) (size 19.05 41.91) (fields_autoplaced)
+  (sheet (at 243.84 80.01) (size 19.05 53.34) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 1f693c02-7734-4d07-85c5-22483e243ef7)
     (property "Sheet name" "Power" (id 0) (at 243.84 79.2984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Power.kicad_sch" (id 1) (at 243.84 122.5046 0)
+    (property "Sheet file" "Power.kicad_sch" (id 1) (at 243.84 133.9346 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "PD_SCL" input (at 243.84 86.36 180)
@@ -3906,6 +3932,18 @@
     (pin "MCU-D+" input (at 243.84 119.38 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 7992f732-e1e0-4cd3-8e72-3b4d2157afc2)
+    )
+    (pin "FG_SCL" input (at 243.84 127 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 975adc9d-ca65-4fef-8288-abbd7c2a5793)
+    )
+    (pin "FG_SDA" input (at 243.84 129.54 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 835da703-0b27-4d19-9e63-6d318e48dbc1)
+    )
+    (pin "USB_SW" input (at 243.84 121.92 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 0198ca42-4ce0-4318-ad76-57eab6254ce3)
     )
   )
 
@@ -4119,6 +4157,24 @@
     )
     (path "/9344b18c-d741-4540-90f0-68d84109ff0e"
       (reference "#PWR0134") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/173cd01a-e5d4-4742-9356-d3d61817c6b3"
+      (reference "#PWR0135") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/b154a664-efb0-4e06-a3f6-2fec65b92112"
+      (reference "#PWR0136") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/200d4b6c-2e4a-40dd-8ff2-4b83d2ea0278"
+      (reference "#PWR0137") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/4855b5b1-3f5a-46d2-b917-7bca685a51c7"
+      (reference "#PWR0138") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/496399a7-0b72-4433-a057-e245002435c8"
+      (reference "#PWR0139") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ab0cb75f-c4db-4911-a49f-a4538f98bdc4"
+      (reference "#PWR0140") (unit 1) (value "Earth") (footprint "")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/11abb5d0-9c5a-43e7-9733-c1460163c319"
       (reference "#PWR0162") (unit 1) (value "Earth") (footprint "")
@@ -4579,20 +4635,8 @@
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/287c42dc-19bf-46da-b9c2-346779200940"
       (reference "#PWR0316") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/7edd453b-f6f9-404d-b6a2-aa56146267a3"
-      (reference "#PWR0317") (unit 1) (value "+BATT") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/dfb55799-1391-471d-b190-9dcecb42bda1"
-      (reference "#PWR0318") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/092d92a5-2694-459b-bed6-1b9c6b506a14"
       (reference "#PWR0319") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ff8e6c56-4728-4704-88b9-657a3014f63f"
-      (reference "#PWR0320") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/ff4e7dc1-2241-4656-8db8-0a1b74a7a27e"
-      (reference "#PWR0321") (unit 1) (value "Earth") (footprint "")
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/46f45ce8-ffcb-4f0d-b6d5-ac1be2a8b9b7"
       (reference "#PWR0322") (unit 1) (value "Earth") (footprint "")
@@ -4767,6 +4811,9 @@
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/a6b7d8a0-6c79-46d5-a07a-10d9f301c801"
       (reference "C236") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/0ca30340-627e-4ff1-b809-dc5de0f2ee2c"
+      (reference "C237") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/f1fceaca-23b9-4e18-a949-86ee054a348a"
       (reference "C301") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4993,6 +5040,9 @@
     (path "/97e2a61b-5301-4a57-945e-ee84db4c0536"
       (reference "R115") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/5111df16-7ea7-4379-9a8f-b3f4c83a0af2"
+      (reference "R201") (unit 1) (value "10m") (footprint "Resistor_SMD:R_2512_6332Metric")
+    )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/67206d1d-0475-4b4b-899d-3482d5ab17bb"
       (reference "R203") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -5175,6 +5225,9 @@
     )
     (path "/1f693c02-7734-4d07-85c5-22483e243ef7/f2c43715-e9b7-4f5f-95bb-f6c7bdfebd25"
       (reference "U206") (unit 1) (value "USB3740B-AI2") (footprint "Package_DFN_QFN:UQFN-10_1.3x1.8mm_P0.4mm")
+    )
+    (path "/1f693c02-7734-4d07-85c5-22483e243ef7/1b289f6d-a96b-42f3-8b94-cd61043735fe"
+      (reference "U207") (unit 1) (value "LTC2942") (footprint "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm")
     )
     (path "/4fbde836-87d5-478f-8d01-f08e4241a9c4/b9c95ca2-a7b1-44de-9f8d-f4ea8d9de37b"
       (reference "U301") (unit 1) (value "DG0") (footprint "clock:7seg 0.8in smd")
